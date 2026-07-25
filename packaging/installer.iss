@@ -12,17 +12,14 @@ OutputDir=..\Output
 OutputBaseFilename=LARP-Audio-Windows-x64-Setup
 ArchitecturesAllowed=x64
 ArchitecturesInstallIn64BitMode=x64
-SetupIconFile=..\resources\icons\larp_audio_master.ico
+SetupIconFile=..\resources\icons\larp-audio.ico
 PrivilegesRequired=lowest
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-; The main executable and all its dependencies
-Source: "..\dist\LARP Audio\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-; Exclude macOS binaries explicitly
-Excludes: "*macos-arm64*", "*.app", "*.dmg"
+Source: "..\dist\LARP Audio\*"; DestDir: "{app}"; Excludes: "*macos-arm64*,*.app,*.dmg"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [Icons]
 Name: "{group}\LARP Audio"; Filename: "{app}\LARP Audio.exe"; IconFilename: "{app}\LARP Audio.exe"
