@@ -23,6 +23,8 @@ jobs:
       - name: Install dependencies
         shell: pwsh
         run: |
+          $ErrorActionPreference = "Stop"
+
           python -m pip install --upgrade pip
           pip install -e .
 
@@ -32,6 +34,8 @@ jobs:
           else {
             pip install pyinstaller
           }
+
+          pip install pillow
 
       - name: Download Windows FFmpeg
         shell: pwsh
@@ -46,6 +50,7 @@ jobs:
           $targetPath = "resources/bin/windows-x86_64"
 
           Write-Host "Downloading FFmpeg..."
+
           Invoke-WebRequest `
             -Uri $ffmpegUrl `
             -OutFile $archivePath
@@ -55,6 +60,7 @@ jobs:
           }
 
           Write-Host "Extracting FFmpeg..."
+
           Expand-Archive `
             -Path $archivePath `
             -DestinationPath $extractPath `
@@ -98,16 +104,94 @@ jobs:
             -Destination "$targetPath/ffprobe.exe" `
             -Force
 
-          Write-Host "FFmpeg files prepared:"
-          Get-Item "$targetPath/ffmpeg.exe"
-          Get-Item "$targetPath/ffprobe.exe"
+          Write-Host "FFmpeg prepared successfully."
 
-          & "$targetPath/ffmpeg.exe" -version
-          & "$targetPath/ffprobe.exe" -version
+      - name: Prepare Windows icon
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = "Stop"
+
+          $iconCandidates = @(
+            "resources/icons/larp_audio_master.png",
+            "resources/icons/icon_512x512.png",
+            "resources/icons/icon_256x256.png",
+            "resources/icons/icon_128x128.png",
+            "landing/assets/app-icon.png"
+          )
+
+          $sourceIcon = $iconCandidates |
+            Where-Object { Test-Path $_ } |
+            Select-Object -First 1
+
+          if (-not $sourceIcon) {
+            Write-Host "Files inside resources/icons:"
+            if (Test-Path "resources/icons") {
+              Get-ChildItem "resources/icons" -Recurse
+            }
+
+            throw "No source PNG icon was found."
+          }
+
+          New-Item `
+            -ItemType Directory `
+            -Path "resources/icons" `
+            -Force |
+            Out-Null
+
+          $env:LARP_ICON_SOURCE = (Resolve-Path $sourceIcon).Path
+
+          $pythonScript = Join-Path $env:RUNNER_TEMP "create_windows_icon.py"
+
+          @'
+          import os
+          from pathlib import Path
+
+          from PIL import Image
+
+          source = Path(os.environ["LARP_ICON_SOURCE"])
+          target = Path("resources/icons/larp-audio.ico")
+
+          image = Image.open(source).convert("RGBA")
+
+          if image.size != (256, 256):
+              image = image.resize(
+                  (256, 256),
+                  Image.Resampling.LANCZOS,
+              )
+
+          target.parent.mkdir(parents=True, exist_ok=True)
+
+          image.save(
+              target,
+              format="ICO",
+              sizes=[
+                  (16, 16),
+                  (24, 24),
+                  (32, 32),
+                  (48, 48),
+                  (64, 64),
+                  (128, 128),
+                  (256, 256),
+              ],
+          )
+
+          print(f"Created Windows icon: {target.resolve()}")
+          '@ | Set-Content `
+            -Path $pythonScript `
+            -Encoding UTF8
+
+          python $pythonScript
+
+          if (-not (Test-Path "resources/icons/larp-audio.ico")) {
+            throw "Windows ICO file was not created."
+          }
+
+          Get-Item "resources/icons/larp-audio.ico"
 
       - name: Build Application with PyInstaller
         shell: pwsh
         run: |
+          $ErrorActionPreference = "Stop"
           ./scripts/build_windows.ps1
 
       - name: Compile Inno Setup Installer
@@ -118,7 +202,15 @@ jobs:
       - name: Verify installer
         shell: pwsh
         run: |
+          $ErrorActionPreference = "Stop"
+
           if (-not (Test-Path "Output/LARP-Audio-Windows-x64-Setup.exe")) {
+            Write-Host "Output directory contents:"
+
+            if (Test-Path "Output") {
+              Get-ChildItem "Output" -Recurse
+            }
+
             throw "Windows installer was not created."
           }
 
