@@ -1,0 +1,51 @@
+{
+  "audio": {
+    "removed_samples": 1000,
+    "sample_rate": 1000,
+    "source_sha256": "stage-8-1-source-hash",
+    "source_total_samples": 7000,
+    "target_sha256": "stage-8-1-cleaned-hash",
+    "target_total_samples": 6000
+  },
+  "policy": {
+    "parameters": {},
+    "version": "stage-8-1-example-v1"
+  },
+  "schema_version": "1",
+  "spans": [
+    {
+      "kind": "keep",
+      "reason": "kept example audio",
+      "removed_samples": 0,
+      "source_end": 3000,
+      "source_start": 0,
+      "target_end": 3000,
+      "target_start": 0
+    },
+    {
+      "candidate": {
+        "source_end": 4250,
+        "source_start": 2750
+      },
+      "kind": "remove",
+      "reason": "shortened example pause",
+      "removed_samples": 1000,
+      "retained_after_samples": 250,
+      "retained_before_samples": 250,
+      "source_end": 4000,
+      "source_start": 3000,
+      "target_end": 3000,
+      "target_start": 3000
+    },
+    {
+      "kind": "keep",
+      "reason": "kept example audio",
+      "removed_samples": 0,
+      "source_end": 7000,
+      "source_start": 4000,
+      "target_end": 6000,
+      "target_start": 3000
+    }
+  ],
+  "warnings": []
+}

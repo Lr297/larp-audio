@@ -1,0 +1,9 @@
+{
+  "alignment_sha256_after": "19e30f8013c9fe2efcb4f3dc01b822e581457326be58dcd652f2e981c5eb47e5",
+  "alignment_sha256_before": "19e30f8013c9fe2efcb4f3dc01b822e581457326be58dcd652f2e981c5eb47e5",
+  "alignment_unchanged": true,
+  "error": "ERROR [SUBTITLE_OUTPUT_COLLISION]: path collision between alignment input and subtitle_blocks output",
+  "exit_code": 2,
+  "stdout": "",
+  "temporary_files": []
+}

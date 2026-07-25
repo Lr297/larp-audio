@@ -1,0 +1,198 @@
+{
+  "blocks": [
+    {
+      "block_index": 1,
+      "characters_per_second": {
+        "decimal": "5.581395348837209302325581395",
+        "denominator": 43,
+        "numerator": 240
+      },
+      "cleaned_end_sample": 4800,
+      "cleaned_start_sample": 500,
+      "contains_interpolated_words": false,
+      "contains_unresolved_words": false,
+      "display_lines": [
+        "One, two, three, four, five."
+      ],
+      "duration_samples": 4300,
+      "first_token_index": 0,
+      "interpolated_script_word_indices": [],
+      "last_token_index": 14,
+      "original_end_sample": 4800,
+      "original_start_sample": 500,
+      "script_word_indices": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "source_char_end": 30,
+      "source_char_start": 0,
+      "source_text_exact": "One, two, three, four, five.\r\n",
+      "timing_provenance": "observed",
+      "unresolved_script_word_indices": [],
+      "visible_character_count": 24,
+      "warnings": [],
+      "word_count": 5
+    },
+    {
+      "block_index": 2,
+      "characters_per_second": {
+        "decimal": "10",
+        "denominator": 1,
+        "numerator": 10
+      },
+      "cleaned_end_sample": 7000,
+      "cleaned_start_sample": 6500,
+      "contains_interpolated_words": false,
+      "contains_unresolved_words": false,
+      "display_lines": [
+        "Stop!"
+      ],
+      "duration_samples": 500,
+      "first_token_index": 15,
+      "interpolated_script_word_indices": [],
+      "last_token_index": 17,
+      "original_end_sample": 7000,
+      "original_start_sample": 6500,
+      "script_word_indices": [
+        5
+      ],
+      "source_char_end": 37,
+      "source_char_start": 30,
+      "source_text_exact": "Stop!\r\n",
+      "timing_provenance": "observed",
+      "unresolved_script_word_indices": [],
+      "visible_character_count": 5,
+      "warnings": [
+        "block is below preferred minimum duration"
+      ],
+      "word_count": 1
+    },
+    {
+      "block_index": 3,
+      "characters_per_second": {
+        "decimal": "8.275862068965517241379310345",
+        "denominator": 29,
+        "numerator": 240
+      },
+      "cleaned_end_sample": 9950,
+      "cleaned_start_sample": 8500,
+      "contains_interpolated_words": false,
+      "contains_unresolved_words": false,
+      "display_lines": [
+        "Привет, svet!"
+      ],
+      "duration_samples": 1450,
+      "first_token_index": 18,
+      "interpolated_script_word_indices": [],
+      "last_token_index": 22,
+      "original_end_sample": 9950,
+      "original_start_sample": 8500,
+      "script_word_indices": [
+        6,
+        7
+      ],
+      "source_char_end": 50,
+      "source_char_start": 37,
+      "source_text_exact": "Привет, svet!",
+      "timing_provenance": "observed",
+      "unresolved_script_word_indices": [],
+      "visible_character_count": 12,
+      "warnings": [],
+      "word_count": 2
+    }
+  ],
+  "cleaned_total_samples": 11000,
+  "configuration": {
+    "allow_unresolved_attachment": "true",
+    "max_characters_per_line": "32",
+    "max_characters_per_second": "20",
+    "max_duration_ms": "7000",
+    "max_lines": "2",
+    "max_segmentation_cells": "250000",
+    "max_unresolved_words_per_block": "2",
+    "max_words_per_block": "10",
+    "minimum_timing_coverage_for_export": "0.70",
+    "new_block_penalty": "1800",
+    "policy_version": "subtitle-dp-v2",
+    "preferred_gap_break_ms": "450",
+    "preferred_min_duration_ms": "800",
+    "preferred_min_visible_chars": "8",
+    "preferred_min_words_per_block": "2",
+    "short_block_penalty": "800",
+    "single_word_block_penalty": "1600",
+    "strong_gap_break_ms": "1200"
+  },
+  "diagnostics": {
+    "attached_unresolved_words": 0,
+    "average_block_duration": {
+      "decimal": "2.083333333333333333333333333",
+      "denominator": 12,
+      "numerator": 25
+    },
+    "average_characters_per_second": {
+      "decimal": "7.952419139267575514568297247",
+      "denominator": 3741,
+      "numerator": 29750
+    },
+    "average_words_per_block": {
+      "decimal": "2.666666666666666666666666667",
+      "denominator": 3,
+      "numerator": 8
+    },
+    "blocks_created_at_comma_boundary": 0,
+    "blocks_created_at_gap_boundary": 2,
+    "blocks_created_at_sentence_boundary": 2,
+    "blocks_forced_by_hard_limit": 0,
+    "blocks_over_cps_limit": 0,
+    "blocks_over_duration_limit": 0,
+    "blocks_over_line_length_limit": 0,
+    "blocks_with_interpolated_words": 0,
+    "blocks_with_unresolved_words": 0,
+    "exported_script_words": 8,
+    "interpolated_script_words": 0,
+    "maximum_block_duration": {
+      "decimal": "4.3",
+      "denominator": 10,
+      "numerator": 43
+    },
+    "maximum_characters_per_second": {
+      "decimal": "10",
+      "denominator": 1,
+      "numerator": 10
+    },
+    "maximum_words_in_block": 5,
+    "minimum_words_in_block": 1,
+    "short_blocks": 1,
+    "single_word_blocks": 1,
+    "srt_exportable": true,
+    "text_coverage": {
+      "decimal": "1",
+      "denominator": 1,
+      "numerator": 1
+    },
+    "timing_coverage": {
+      "decimal": "1",
+      "denominator": 1,
+      "numerator": 1
+    },
+    "total_blocks": 3,
+    "total_script_words": 8,
+    "unresolved_script_words": 0,
+    "warnings_count": 1
+  },
+  "original_total_samples": 11000,
+  "sample_rate": 1000,
+  "schema_version": "subtitle_blocks.schema.v1",
+  "script": {
+    "encoding": "utf-8",
+    "exact_text": "One, two, three, four, five.\r\nStop!\r\nПривет, svet!",
+    "has_bom": false,
+    "source_sha256": "f6d195775a413624de526e37c83af984391ce53372d080e93f2ba12fc181ca43"
+  },
+  "source_alignment_schema_version": "alignment.schema.v2",
+  "source_alignment_sha256": "19e30f8013c9fe2efcb4f3dc01b822e581457326be58dcd652f2e981c5eb47e5",
+  "warnings": []
+}

@@ -1,0 +1,51 @@
+{
+  "actual_new_result": [
+    "One, two, three, four, five."
+  ],
+  "block_count": 1,
+  "diagnostics": {
+    "average_words_per_block": {
+      "denominator": 3,
+      "numerator": 8
+    },
+    "document_short_blocks": 1,
+    "document_single_word_blocks": 1,
+    "document_total_blocks": 3
+  },
+  "input_text": "One, two, three, four, five.",
+  "previous_problematic_expected_fragmentation": [
+    "One,",
+    "two,",
+    "three,",
+    "four,",
+    "five."
+  ],
+  "single_word_blocks": 0,
+  "word_timings": [
+    {
+      "end_sample": 1000,
+      "start_sample": 500,
+      "text": "One"
+    },
+    {
+      "end_sample": 1950,
+      "start_sample": 1450,
+      "text": "two"
+    },
+    {
+      "end_sample": 2900,
+      "start_sample": 2400,
+      "text": "three"
+    },
+    {
+      "end_sample": 3850,
+      "start_sample": 3350,
+      "text": "four"
+    },
+    {
+      "end_sample": 4800,
+      "start_sample": 4300,
+      "text": "five"
+    }
+  ]
+}

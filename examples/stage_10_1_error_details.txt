@@ -1,0 +1,8 @@
+Title: Output folder could not be opened
+Code: DESKTOP_OPEN_FAILED
+Message: The operating system rejected the desktop action.
+Path: demo-output
+Details: The generated subtitle result is still available.
+Source: desktop_action
+Recoverable: yes
+Unexpected: no

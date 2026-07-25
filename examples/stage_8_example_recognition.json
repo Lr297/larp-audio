@@ -1,0 +1,224 @@
+{
+  "backend": "faster-whisper",
+  "duration": {
+    "cleaned_samples": 8000,
+    "cleaned_seconds": {
+      "decimal": "8",
+      "denominator": 1,
+      "numerator": 8
+    },
+    "original_samples": 9000,
+    "original_seconds": {
+      "decimal": "9",
+      "denominator": 1,
+      "numerator": 9
+    }
+  },
+  "language": "en",
+  "metadata": {
+    "cleaned_audio_sha256": "example-cleaned-audio-sha256",
+    "edit_map_output_sha256": "example-cleaned-audio-sha256",
+    "fixture": "stage-8-synthetic-no-model"
+  },
+  "model": "tiny",
+  "sample_rate": 1000,
+  "schema_version": "1",
+  "words": [
+    {
+      "confidence": 0.96,
+      "end_sample_cleaned": 900,
+      "end_sample_original": 900,
+      "end_seconds": {
+        "decimal": "0.9",
+        "denominator": 10,
+        "numerator": 9
+      },
+      "end_seconds_original": {
+        "decimal": "0.9",
+        "denominator": 10,
+        "numerator": 9
+      },
+      "start_sample_cleaned": 500,
+      "start_sample_original": 500,
+      "start_seconds": {
+        "decimal": "0.5",
+        "denominator": 2,
+        "numerator": 1
+      },
+      "start_seconds_original": {
+        "decimal": "0.5",
+        "denominator": 2,
+        "numerator": 1
+      },
+      "text": "Hello"
+    },
+    {
+      "confidence": 0.93,
+      "end_sample_cleaned": 1400,
+      "end_sample_original": 1400,
+      "end_seconds": {
+        "decimal": "1.4",
+        "denominator": 5,
+        "numerator": 7
+      },
+      "end_seconds_original": {
+        "decimal": "1.4",
+        "denominator": 5,
+        "numerator": 7
+      },
+      "start_sample_cleaned": 1000,
+      "start_sample_original": 1000,
+      "start_seconds": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "start_seconds_original": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "text": "brave"
+    },
+    {
+      "confidence": 0.91,
+      "end_sample_cleaned": 3500,
+      "end_sample_original": 4500,
+      "end_seconds": {
+        "decimal": "3.5",
+        "denominator": 2,
+        "numerator": 7
+      },
+      "end_seconds_original": {
+        "decimal": "4.5",
+        "denominator": 2,
+        "numerator": 9
+      },
+      "start_sample_cleaned": 3000,
+      "start_sample_original": 4000,
+      "start_seconds": {
+        "decimal": "3",
+        "denominator": 1,
+        "numerator": 3
+      },
+      "start_seconds_original": {
+        "decimal": "4",
+        "denominator": 1,
+        "numerator": 4
+      },
+      "text": "world"
+    },
+    {
+      "confidence": 0.89,
+      "end_sample_cleaned": 4300,
+      "end_sample_original": 5300,
+      "end_seconds": {
+        "decimal": "4.3",
+        "denominator": 10,
+        "numerator": 43
+      },
+      "end_seconds_original": {
+        "decimal": "5.3",
+        "denominator": 10,
+        "numerator": 53
+      },
+      "start_sample_cleaned": 4000,
+      "start_sample_original": 5000,
+      "start_seconds": {
+        "decimal": "4",
+        "denominator": 1,
+        "numerator": 4
+      },
+      "start_seconds_original": {
+        "decimal": "5",
+        "denominator": 1,
+        "numerator": 5
+      },
+      "text": "don't"
+    },
+    {
+      "confidence": null,
+      "end_sample_cleaned": 4700,
+      "end_sample_original": 5700,
+      "end_seconds": {
+        "decimal": "4.7",
+        "denominator": 10,
+        "numerator": 47
+      },
+      "end_seconds_original": {
+        "decimal": "5.7",
+        "denominator": 10,
+        "numerator": 57
+      },
+      "start_sample_cleaned": 4400,
+      "start_sample_original": 5400,
+      "start_seconds": {
+        "decimal": "4.4",
+        "denominator": 5,
+        "numerator": 22
+      },
+      "start_seconds_original": {
+        "decimal": "5.4",
+        "denominator": 5,
+        "numerator": 27
+      },
+      "text": "alter"
+    },
+    {
+      "confidence": 0.55,
+      "end_sample_cleaned": 4900,
+      "end_sample_original": 5900,
+      "end_seconds": {
+        "decimal": "4.9",
+        "denominator": 10,
+        "numerator": 49
+      },
+      "end_seconds_original": {
+        "decimal": "5.9",
+        "denominator": 10,
+        "numerator": 59
+      },
+      "start_sample_cleaned": 4800,
+      "start_sample_original": 5800,
+      "start_seconds": {
+        "decimal": "4.8",
+        "denominator": 5,
+        "numerator": 24
+      },
+      "start_seconds_original": {
+        "decimal": "5.8",
+        "denominator": 5,
+        "numerator": 29
+      },
+      "text": "um"
+    },
+    {
+      "confidence": 0.88,
+      "end_sample_cleaned": 5400,
+      "end_sample_original": 6400,
+      "end_seconds": {
+        "decimal": "5.4",
+        "denominator": 5,
+        "numerator": 27
+      },
+      "end_seconds_original": {
+        "decimal": "6.4",
+        "denominator": 5,
+        "numerator": 32
+      },
+      "start_sample_cleaned": 5000,
+      "start_sample_original": 6000,
+      "start_seconds": {
+        "decimal": "5",
+        "denominator": 1,
+        "numerator": 5
+      },
+      "start_seconds_original": {
+        "decimal": "6",
+        "denominator": 1,
+        "numerator": 6
+      },
+      "text": "привіт"
+    }
+  ]
+}

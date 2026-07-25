@@ -1,0 +1,14 @@
+{
+  "absolute_paths_found": 0,
+  "files": [
+    "alignment.json",
+    "edit_map.json",
+    "manifest.json",
+    "processing_report.json",
+    "recognition.json",
+    "subtitle_blocks.json",
+    "voiceover_package.zip"
+  ],
+  "passed": true,
+  "schema_version": "privacy_scan.schema.v1"
+}

@@ -1,0 +1,552 @@
+{
+  "aligned_words": [
+    {
+      "alignment_operation_id": "alignment-op-000000",
+      "alignment_score": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "asr_confidence": 0.9,
+      "char_end": 5,
+      "char_start": 0,
+      "cleaned_end_sample": 36000,
+      "cleaned_start_sample": 12000,
+      "exact_text": "Hello",
+      "interpolation_left_anchor_script_word_index": null,
+      "interpolation_right_anchor_script_word_index": null,
+      "match_type": "exact",
+      "matched_recognition_indices": [
+        0
+      ],
+      "original_end_sample": 36000,
+      "original_start_sample": 12000,
+      "script_word_index": 0,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 0,
+      "warnings": []
+    },
+    {
+      "alignment_operation_id": null,
+      "alignment_score": null,
+      "asr_confidence": null,
+      "char_end": 13,
+      "char_start": 6,
+      "cleaned_end_sample": 48000,
+      "cleaned_start_sample": 36000,
+      "exact_text": "missing",
+      "interpolation_left_anchor_script_word_index": 0,
+      "interpolation_right_anchor_script_word_index": 2,
+      "match_type": "interpolated",
+      "matched_recognition_indices": [],
+      "original_end_sample": 48000,
+      "original_start_sample": 36000,
+      "script_word_index": 1,
+      "text_similarity": null,
+      "timing_status": "interpolated",
+      "token_index": 2,
+      "warnings": [
+        "timing interpolated between reliable ASR anchors"
+      ]
+    },
+    {
+      "alignment_operation_id": "alignment-op-000002",
+      "alignment_score": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "asr_confidence": 0.9,
+      "char_end": 19,
+      "char_start": 14,
+      "cleaned_end_sample": 72000,
+      "cleaned_start_sample": 48000,
+      "exact_text": "world",
+      "interpolation_left_anchor_script_word_index": null,
+      "interpolation_right_anchor_script_word_index": null,
+      "match_type": "exact",
+      "matched_recognition_indices": [
+        2
+      ],
+      "original_end_sample": 72000,
+      "original_start_sample": 48000,
+      "script_word_index": 2,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 4,
+      "warnings": []
+    },
+    {
+      "alignment_operation_id": "alignment-op-000003",
+      "alignment_score": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "asr_confidence": 0.9,
+      "char_end": 28,
+      "char_start": 22,
+      "cleaned_end_sample": 117600,
+      "cleaned_start_sample": 93600,
+      "exact_text": "Привет",
+      "interpolation_left_anchor_script_word_index": null,
+      "interpolation_right_anchor_script_word_index": null,
+      "match_type": "exact",
+      "matched_recognition_indices": [
+        3
+      ],
+      "original_end_sample": 156000,
+      "original_start_sample": 132000,
+      "script_word_index": 3,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 7,
+      "warnings": []
+    },
+    {
+      "alignment_operation_id": "alignment-op-000004",
+      "alignment_score": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "asr_confidence": 0.9,
+      "char_end": 33,
+      "char_start": 30,
+      "cleaned_end_sample": 145600,
+      "cleaned_start_sample": 121600,
+      "exact_text": "мир",
+      "interpolation_left_anchor_script_word_index": null,
+      "interpolation_right_anchor_script_word_index": null,
+      "match_type": "exact",
+      "matched_recognition_indices": [
+        4
+      ],
+      "original_end_sample": 184000,
+      "original_start_sample": 160000,
+      "script_word_index": 4,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 10,
+      "warnings": []
+    }
+  ],
+  "configuration": {
+    "enable_fuzzy_matching": "true",
+    "enable_split_merge": "true",
+    "fuzzy_threshold": "0.84",
+    "max_dp_cells": "250000",
+    "max_interpolation_gap_ms": "2000",
+    "max_interpolation_words": "3",
+    "min_fuzzy_token_length": "4",
+    "minimum_coverage_warning": "0.80",
+    "policy_version": "script-asr-dp-v1"
+  },
+  "diagnostics": {
+    "classified_asr_words": 5,
+    "exact_matches": 4,
+    "fuzzy_matches": 0,
+    "interpolated_words": 1,
+    "normalized_matches": 0,
+    "observed_timing_coverage": {
+      "decimal": "0.8",
+      "denominator": 5,
+      "numerator": 4
+    },
+    "provenance_complete": true,
+    "rejected_asr_evidence_count": 1,
+    "split_merge_matches": 0,
+    "substitutions": 1,
+    "text_alignment_coverage": {
+      "decimal": "0.8",
+      "denominator": 5,
+      "numerator": 4
+    },
+    "total_asr_words": 5,
+    "total_script_words": 5,
+    "total_timing_coverage": {
+      "decimal": "1",
+      "denominator": 1,
+      "numerator": 1
+    },
+    "unmatched_asr_words": 0,
+    "unresolved_script_words": 0
+  },
+  "edit_map": {
+    "audio": {
+      "removed_samples": 38400,
+      "sample_rate": 48000,
+      "source_sha256": "23dad33ea2a02e1ec864e77f00913336fe595a7b42b959d758d78e7bbad1005c",
+      "source_total_samples": 192000,
+      "target_sha256": "9a93368db9f2c935cde987f1fd88c9e395ec3443671ec02170f9d15405c49bb5",
+      "target_total_samples": 153600
+    },
+    "policy": {
+      "parameters": {},
+      "version": "synthetic-stage-11-v1"
+    },
+    "schema_version": "1",
+    "spans": [
+      {
+        "kind": "keep",
+        "reason": "keep before long pause center",
+        "removed_samples": 0,
+        "source_end": 82800,
+        "source_start": 0,
+        "target_end": 82800,
+        "target_start": 0
+      },
+      {
+        "candidate": {
+          "source_end": 126000,
+          "source_start": 78000
+        },
+        "kind": "remove",
+        "reason": "shorten deterministic pause center",
+        "removed_samples": 38400,
+        "retained_after_samples": 4800,
+        "retained_before_samples": 4800,
+        "source_end": 121200,
+        "source_start": 82800,
+        "target_end": 82800,
+        "target_start": 82800
+      },
+      {
+        "kind": "keep",
+        "reason": "keep after long pause center",
+        "removed_samples": 0,
+        "source_end": 192000,
+        "source_start": 121200,
+        "target_end": 153600,
+        "target_start": 82800
+      }
+    ],
+    "warnings": [
+      "synthetic_demo_recognition"
+    ]
+  },
+  "recognition": {
+    "backend": "synthetic-local",
+    "duration": {
+      "cleaned_samples": 153600,
+      "cleaned_seconds": {
+        "decimal": "3.2",
+        "denominator": 5,
+        "numerator": 16
+      },
+      "original_samples": 192000,
+      "original_seconds": {
+        "decimal": "4",
+        "denominator": 1,
+        "numerator": 4
+      }
+    },
+    "language": "multi",
+    "metadata": {
+      "cleaned_audio_sha256": "9a93368db9f2c935cde987f1fd88c9e395ec3443671ec02170f9d15405c49bb5",
+      "edit_map_output_sha256": "9a93368db9f2c935cde987f1fd88c9e395ec3443671ec02170f9d15405c49bb5"
+    },
+    "model": "tiny",
+    "sample_rate": 48000,
+    "schema_version": "1",
+    "words": [
+      {
+        "confidence": 0.9,
+        "end_sample_cleaned": 36000,
+        "end_sample_original": 36000,
+        "end_seconds": {
+          "decimal": "0.75",
+          "denominator": 4,
+          "numerator": 3
+        },
+        "end_seconds_original": {
+          "decimal": "0.75",
+          "denominator": 4,
+          "numerator": 3
+        },
+        "start_sample_cleaned": 12000,
+        "start_sample_original": 12000,
+        "start_seconds": {
+          "decimal": "0.25",
+          "denominator": 4,
+          "numerator": 1
+        },
+        "start_seconds_original": {
+          "decimal": "0.25",
+          "denominator": 4,
+          "numerator": 1
+        },
+        "text": "Hello"
+      },
+      {
+        "confidence": 0.9,
+        "end_sample_cleaned": 43000,
+        "end_sample_original": 43000,
+        "end_seconds": {
+          "decimal": "0.8958333333333333333333333333",
+          "denominator": 48,
+          "numerator": 43
+        },
+        "end_seconds_original": {
+          "decimal": "0.8958333333333333333333333333",
+          "denominator": 48,
+          "numerator": 43
+        },
+        "start_sample_cleaned": 38000,
+        "start_sample_original": 38000,
+        "start_seconds": {
+          "decimal": "0.7916666666666666666666666667",
+          "denominator": 24,
+          "numerator": 19
+        },
+        "start_seconds_original": {
+          "decimal": "0.7916666666666666666666666667",
+          "denominator": 24,
+          "numerator": 19
+        },
+        "text": "um"
+      },
+      {
+        "confidence": 0.9,
+        "end_sample_cleaned": 72000,
+        "end_sample_original": 72000,
+        "end_seconds": {
+          "decimal": "1.5",
+          "denominator": 2,
+          "numerator": 3
+        },
+        "end_seconds_original": {
+          "decimal": "1.5",
+          "denominator": 2,
+          "numerator": 3
+        },
+        "start_sample_cleaned": 48000,
+        "start_sample_original": 48000,
+        "start_seconds": {
+          "decimal": "1",
+          "denominator": 1,
+          "numerator": 1
+        },
+        "start_seconds_original": {
+          "decimal": "1",
+          "denominator": 1,
+          "numerator": 1
+        },
+        "text": "world"
+      },
+      {
+        "confidence": 0.9,
+        "end_sample_cleaned": 117600,
+        "end_sample_original": 156000,
+        "end_seconds": {
+          "decimal": "2.45",
+          "denominator": 20,
+          "numerator": 49
+        },
+        "end_seconds_original": {
+          "decimal": "3.25",
+          "denominator": 4,
+          "numerator": 13
+        },
+        "start_sample_cleaned": 93600,
+        "start_sample_original": 132000,
+        "start_seconds": {
+          "decimal": "1.95",
+          "denominator": 20,
+          "numerator": 39
+        },
+        "start_seconds_original": {
+          "decimal": "2.75",
+          "denominator": 4,
+          "numerator": 11
+        },
+        "text": "Привет"
+      },
+      {
+        "confidence": 0.9,
+        "end_sample_cleaned": 145600,
+        "end_sample_original": 184000,
+        "end_seconds": {
+          "decimal": "3.033333333333333333333333333",
+          "denominator": 30,
+          "numerator": 91
+        },
+        "end_seconds_original": {
+          "decimal": "3.833333333333333333333333333",
+          "denominator": 6,
+          "numerator": 23
+        },
+        "start_sample_cleaned": 121600,
+        "start_sample_original": 160000,
+        "start_seconds": {
+          "decimal": "2.533333333333333333333333333",
+          "denominator": 15,
+          "numerator": 38
+        },
+        "start_seconds_original": {
+          "decimal": "3.333333333333333333333333333",
+          "denominator": 3,
+          "numerator": 10
+        },
+        "text": "мир"
+      }
+    ]
+  },
+  "rejected_asr_evidence": [
+    {
+      "attempted_match_type": "substitution",
+      "attempted_operation_id": "alignment-op-000001",
+      "cleaned_end_sample": 43000,
+      "cleaned_start_sample": 38000,
+      "confidence": 0.9,
+      "original_end_sample": 43000,
+      "original_start_sample": 38000,
+      "recognition_index": 1,
+      "rejection_reason": "substitution_not_accepted",
+      "related_script_word_indices": [
+        1
+      ],
+      "text": "um"
+    }
+  ],
+  "sample_rate": 48000,
+  "schema_version": "alignment.schema.v2",
+  "script": {
+    "character_count": 36,
+    "encoding": "utf-8",
+    "exact_text": "Hello missing world.\r\nПривет, мир!\r\n",
+    "has_bom": false,
+    "line_count": 3,
+    "newline_style": "crlf",
+    "source_kind": "loaded_file",
+    "source_path": "stage_11_1_demo_script.txt",
+    "source_sha256": "c5ddacd10e104014a7e96a42eec4f9141e7dd7027535ce7b21b455dc82533844"
+  },
+  "tokens": [
+    {
+      "char_end": 5,
+      "char_start": 0,
+      "comparison_key": "hello",
+      "exact_text": "Hello",
+      "kind": "word",
+      "token_index": 0
+    },
+    {
+      "char_end": 6,
+      "char_start": 5,
+      "comparison_key": null,
+      "exact_text": " ",
+      "kind": "whitespace",
+      "token_index": 1
+    },
+    {
+      "char_end": 13,
+      "char_start": 6,
+      "comparison_key": "missing",
+      "exact_text": "missing",
+      "kind": "word",
+      "token_index": 2
+    },
+    {
+      "char_end": 14,
+      "char_start": 13,
+      "comparison_key": null,
+      "exact_text": " ",
+      "kind": "whitespace",
+      "token_index": 3
+    },
+    {
+      "char_end": 19,
+      "char_start": 14,
+      "comparison_key": "world",
+      "exact_text": "world",
+      "kind": "word",
+      "token_index": 4
+    },
+    {
+      "char_end": 20,
+      "char_start": 19,
+      "comparison_key": null,
+      "exact_text": ".",
+      "kind": "punctuation",
+      "token_index": 5
+    },
+    {
+      "char_end": 22,
+      "char_start": 20,
+      "comparison_key": null,
+      "exact_text": "\r\n",
+      "kind": "whitespace",
+      "token_index": 6
+    },
+    {
+      "char_end": 28,
+      "char_start": 22,
+      "comparison_key": "привет",
+      "exact_text": "Привет",
+      "kind": "word",
+      "token_index": 7
+    },
+    {
+      "char_end": 29,
+      "char_start": 28,
+      "comparison_key": null,
+      "exact_text": ",",
+      "kind": "punctuation",
+      "token_index": 8
+    },
+    {
+      "char_end": 30,
+      "char_start": 29,
+      "comparison_key": null,
+      "exact_text": " ",
+      "kind": "whitespace",
+      "token_index": 9
+    },
+    {
+      "char_end": 33,
+      "char_start": 30,
+      "comparison_key": "мир",
+      "exact_text": "мир",
+      "kind": "word",
+      "token_index": 10
+    },
+    {
+      "char_end": 34,
+      "char_start": 33,
+      "comparison_key": null,
+      "exact_text": "!",
+      "kind": "punctuation",
+      "token_index": 11
+    },
+    {
+      "char_end": 36,
+      "char_start": 34,
+      "comparison_key": null,
+      "exact_text": "\r\n",
+      "kind": "whitespace",
+      "token_index": 12
+    }
+  ],
+  "unmatched_asr_words": [],
+  "warnings": [
+    "one or more ASR observations were rejected as match evidence"
+  ]
+}

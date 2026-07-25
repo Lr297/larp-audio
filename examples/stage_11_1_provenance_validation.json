@@ -1,0 +1,11 @@
+{
+  "cleaned_audio_sha256": "9a93368db9f2c935cde987f1fd88c9e395ec3443671ec02170f9d15405c49bb5",
+  "cleaned_total_samples": 153600,
+  "edit_map_output_sha256": "9a93368db9f2c935cde987f1fd88c9e395ec3443671ec02170f9d15405c49bb5",
+  "passed": true,
+  "sample_rate": 48000,
+  "schema_version": "pipeline_provenance_validation.schema.v1",
+  "script_sha256": "c5ddacd10e104014a7e96a42eec4f9141e7dd7027535ce7b21b455dc82533844",
+  "source_audio_sha256": "23dad33ea2a02e1ec864e77f00913336fe595a7b42b959d758d78e7bbad1005c",
+  "source_total_samples": 192000
+}

@@ -1,0 +1,167 @@
+{
+  "backend": "synthetic-local",
+  "duration": {
+    "cleaned_samples": 153600,
+    "cleaned_seconds": {
+      "decimal": "3.2",
+      "denominator": 5,
+      "numerator": 16
+    },
+    "original_samples": 192000,
+    "original_seconds": {
+      "decimal": "4",
+      "denominator": 1,
+      "numerator": 4
+    }
+  },
+  "language": "multi",
+  "metadata": {
+    "cleaned_audio_sha256": "9a93368db9f2c935cde987f1fd88c9e395ec3443671ec02170f9d15405c49bb5",
+    "edit_map_output_sha256": "9a93368db9f2c935cde987f1fd88c9e395ec3443671ec02170f9d15405c49bb5"
+  },
+  "model": "tiny",
+  "sample_rate": 48000,
+  "schema_version": "1",
+  "words": [
+    {
+      "confidence": 0.9,
+      "end_sample_cleaned": 36000,
+      "end_sample_original": 36000,
+      "end_seconds": {
+        "decimal": "0.75",
+        "denominator": 4,
+        "numerator": 3
+      },
+      "end_seconds_original": {
+        "decimal": "0.75",
+        "denominator": 4,
+        "numerator": 3
+      },
+      "start_sample_cleaned": 12000,
+      "start_sample_original": 12000,
+      "start_seconds": {
+        "decimal": "0.25",
+        "denominator": 4,
+        "numerator": 1
+      },
+      "start_seconds_original": {
+        "decimal": "0.25",
+        "denominator": 4,
+        "numerator": 1
+      },
+      "text": "Hello"
+    },
+    {
+      "confidence": 0.9,
+      "end_sample_cleaned": 43000,
+      "end_sample_original": 43000,
+      "end_seconds": {
+        "decimal": "0.8958333333333333333333333333",
+        "denominator": 48,
+        "numerator": 43
+      },
+      "end_seconds_original": {
+        "decimal": "0.8958333333333333333333333333",
+        "denominator": 48,
+        "numerator": 43
+      },
+      "start_sample_cleaned": 38000,
+      "start_sample_original": 38000,
+      "start_seconds": {
+        "decimal": "0.7916666666666666666666666667",
+        "denominator": 24,
+        "numerator": 19
+      },
+      "start_seconds_original": {
+        "decimal": "0.7916666666666666666666666667",
+        "denominator": 24,
+        "numerator": 19
+      },
+      "text": "um"
+    },
+    {
+      "confidence": 0.9,
+      "end_sample_cleaned": 72000,
+      "end_sample_original": 72000,
+      "end_seconds": {
+        "decimal": "1.5",
+        "denominator": 2,
+        "numerator": 3
+      },
+      "end_seconds_original": {
+        "decimal": "1.5",
+        "denominator": 2,
+        "numerator": 3
+      },
+      "start_sample_cleaned": 48000,
+      "start_sample_original": 48000,
+      "start_seconds": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "start_seconds_original": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "text": "world"
+    },
+    {
+      "confidence": 0.9,
+      "end_sample_cleaned": 117600,
+      "end_sample_original": 156000,
+      "end_seconds": {
+        "decimal": "2.45",
+        "denominator": 20,
+        "numerator": 49
+      },
+      "end_seconds_original": {
+        "decimal": "3.25",
+        "denominator": 4,
+        "numerator": 13
+      },
+      "start_sample_cleaned": 93600,
+      "start_sample_original": 132000,
+      "start_seconds": {
+        "decimal": "1.95",
+        "denominator": 20,
+        "numerator": 39
+      },
+      "start_seconds_original": {
+        "decimal": "2.75",
+        "denominator": 4,
+        "numerator": 11
+      },
+      "text": "Привет"
+    },
+    {
+      "confidence": 0.9,
+      "end_sample_cleaned": 145600,
+      "end_sample_original": 184000,
+      "end_seconds": {
+        "decimal": "3.033333333333333333333333333",
+        "denominator": 30,
+        "numerator": 91
+      },
+      "end_seconds_original": {
+        "decimal": "3.833333333333333333333333333",
+        "denominator": 6,
+        "numerator": 23
+      },
+      "start_sample_cleaned": 121600,
+      "start_sample_original": 160000,
+      "start_seconds": {
+        "decimal": "2.533333333333333333333333333",
+        "denominator": 15,
+        "numerator": 38
+      },
+      "start_seconds_original": {
+        "decimal": "3.333333333333333333333333333",
+        "denominator": 3,
+        "numerator": 10
+      },
+      "text": "мир"
+    }
+  ]
+}

@@ -1,0 +1,451 @@
+{
+  "aligned_words": [
+    {
+      "alignment_score": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "asr_confidence": 0.96,
+      "char_end": 5,
+      "char_start": 0,
+      "cleaned_end_sample": 900,
+      "cleaned_start_sample": 500,
+      "exact_text": "Hello",
+      "match_type": "exact",
+      "matched_recognition_indices": [
+        0
+      ],
+      "original_end_sample": 900,
+      "original_start_sample": 500,
+      "script_word_index": 0,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 0,
+      "warnings": []
+    },
+    {
+      "alignment_score": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "asr_confidence": 0.93,
+      "char_end": 12,
+      "char_start": 7,
+      "cleaned_end_sample": 1400,
+      "cleaned_start_sample": 1000,
+      "exact_text": "brave",
+      "match_type": "exact",
+      "matched_recognition_indices": [
+        1
+      ],
+      "original_end_sample": 1400,
+      "original_start_sample": 1000,
+      "script_word_index": 1,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 3,
+      "warnings": []
+    },
+    {
+      "alignment_score": {
+        "decimal": "0",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "asr_confidence": null,
+      "char_end": 16,
+      "char_start": 13,
+      "cleaned_end_sample": 3000,
+      "cleaned_start_sample": 1400,
+      "exact_text": "new",
+      "match_type": "interpolated",
+      "matched_recognition_indices": [],
+      "original_end_sample": 4000,
+      "original_start_sample": 1400,
+      "script_word_index": 2,
+      "text_similarity": null,
+      "timing_status": "interpolated",
+      "token_index": 5,
+      "warnings": [
+        "timing interpolated between reliable ASR anchors"
+      ]
+    },
+    {
+      "alignment_score": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "asr_confidence": 0.91,
+      "char_end": 22,
+      "char_start": 17,
+      "cleaned_end_sample": 3500,
+      "cleaned_start_sample": 3000,
+      "exact_text": "world",
+      "match_type": "exact",
+      "matched_recognition_indices": [
+        2
+      ],
+      "original_end_sample": 4500,
+      "original_start_sample": 4000,
+      "script_word_index": 3,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 7,
+      "warnings": []
+    },
+    {
+      "alignment_score": {
+        "decimal": "0.9",
+        "denominator": 10,
+        "numerator": 9
+      },
+      "asr_confidence": 0.89,
+      "char_end": 30,
+      "char_start": 25,
+      "cleaned_end_sample": 4300,
+      "cleaned_start_sample": 4000,
+      "exact_text": "Don’t",
+      "match_type": "normalized",
+      "matched_recognition_indices": [
+        3
+      ],
+      "original_end_sample": 5300,
+      "original_start_sample": 5000,
+      "script_word_index": 4,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 10,
+      "warnings": []
+    },
+    {
+      "alignment_score": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "asr_confidence": null,
+      "char_end": 36,
+      "char_start": 31,
+      "cleaned_end_sample": 4700,
+      "cleaned_start_sample": 4400,
+      "exact_text": "alter",
+      "match_type": "exact",
+      "matched_recognition_indices": [
+        4
+      ],
+      "original_end_sample": 5700,
+      "original_start_sample": 5400,
+      "script_word_index": 5,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 12,
+      "warnings": []
+    },
+    {
+      "alignment_score": {
+        "decimal": "0.9",
+        "denominator": 10,
+        "numerator": 9
+      },
+      "asr_confidence": 0.88,
+      "char_end": 43,
+      "char_start": 37,
+      "cleaned_end_sample": 5400,
+      "cleaned_start_sample": 5000,
+      "exact_text": "Привіт",
+      "match_type": "normalized",
+      "matched_recognition_indices": [
+        6
+      ],
+      "original_end_sample": 6400,
+      "original_start_sample": 6000,
+      "script_word_index": 6,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 14,
+      "warnings": []
+    },
+    {
+      "alignment_score": {
+        "decimal": "0",
+        "denominator": 1,
+        "numerator": 0
+      },
+      "asr_confidence": null,
+      "char_end": 53,
+      "char_start": 45,
+      "cleaned_end_sample": null,
+      "cleaned_start_sample": null,
+      "exact_text": "Trailing",
+      "match_type": "unresolved",
+      "matched_recognition_indices": [],
+      "original_end_sample": null,
+      "original_start_sample": null,
+      "script_word_index": 7,
+      "text_similarity": null,
+      "timing_status": "unresolved",
+      "token_index": 17,
+      "warnings": [
+        "no reliable observed timing assigned"
+      ]
+    }
+  ],
+  "configuration": {
+    "enable_fuzzy_matching": "true",
+    "enable_split_merge": "true",
+    "fuzzy_threshold": "0.84",
+    "max_dp_cells": "250000",
+    "max_interpolation_gap_ms": "2000",
+    "max_interpolation_words": "3",
+    "min_fuzzy_token_length": "4",
+    "minimum_coverage_warning": "0.80",
+    "policy_version": "script-asr-dp-v1"
+  },
+  "diagnostics": {
+    "exact_matches": 4,
+    "fuzzy_matches": 0,
+    "interpolated_words": 1,
+    "normalized_matches": 2,
+    "observed_timing_coverage": {
+      "decimal": "0.75",
+      "denominator": 4,
+      "numerator": 3
+    },
+    "split_merge_matches": 0,
+    "substitutions": 0,
+    "text_alignment_coverage": {
+      "decimal": "0.75",
+      "denominator": 4,
+      "numerator": 3
+    },
+    "total_asr_words": 7,
+    "total_script_words": 8,
+    "total_timing_coverage": {
+      "decimal": "0.875",
+      "denominator": 8,
+      "numerator": 7
+    },
+    "unmatched_asr_words": 1,
+    "unresolved_script_words": 1
+  },
+  "edit_map": {
+    "cleaned_sha256": "example-cleaned-audio-sha256",
+    "cleaned_total_samples": 8000,
+    "policy_version": "stage-8-example-v1",
+    "schema_version": "1",
+    "source_sha256": "example-source-audio-sha256",
+    "source_total_samples": 9000
+  },
+  "recognition": {
+    "backend": "faster-whisper",
+    "cleaned_total_samples": 8000,
+    "language": "en",
+    "metadata": {
+      "cleaned_audio_sha256": "example-cleaned-audio-sha256",
+      "edit_map_output_sha256": "example-cleaned-audio-sha256",
+      "fixture": "stage-8-synthetic-no-model"
+    },
+    "model": "tiny",
+    "original_total_samples": 9000,
+    "schema_version": "1",
+    "total_words": 7
+  },
+  "sample_rate": 1000,
+  "schema_version": "1",
+  "script": {
+    "character_count": 53,
+    "encoding": "utf-8",
+    "exact_text": "Hello, brave new world!\r\nDon’t alter Привіт. Trailing",
+    "has_bom": true,
+    "line_count": 2,
+    "source_path": "examples/stage_8_example_script.txt",
+    "source_sha256": "99d9926741bd3f351cc825c108c0b69fff34ae3641318b67847608de7caaf365"
+  },
+  "tokens": [
+    {
+      "char_end": 5,
+      "char_start": 0,
+      "comparison_key": "hello",
+      "exact_text": "Hello",
+      "kind": "word",
+      "token_index": 0
+    },
+    {
+      "char_end": 6,
+      "char_start": 5,
+      "comparison_key": null,
+      "exact_text": ",",
+      "kind": "punctuation",
+      "token_index": 1
+    },
+    {
+      "char_end": 7,
+      "char_start": 6,
+      "comparison_key": null,
+      "exact_text": " ",
+      "kind": "whitespace",
+      "token_index": 2
+    },
+    {
+      "char_end": 12,
+      "char_start": 7,
+      "comparison_key": "brave",
+      "exact_text": "brave",
+      "kind": "word",
+      "token_index": 3
+    },
+    {
+      "char_end": 13,
+      "char_start": 12,
+      "comparison_key": null,
+      "exact_text": " ",
+      "kind": "whitespace",
+      "token_index": 4
+    },
+    {
+      "char_end": 16,
+      "char_start": 13,
+      "comparison_key": "new",
+      "exact_text": "new",
+      "kind": "word",
+      "token_index": 5
+    },
+    {
+      "char_end": 17,
+      "char_start": 16,
+      "comparison_key": null,
+      "exact_text": " ",
+      "kind": "whitespace",
+      "token_index": 6
+    },
+    {
+      "char_end": 22,
+      "char_start": 17,
+      "comparison_key": "world",
+      "exact_text": "world",
+      "kind": "word",
+      "token_index": 7
+    },
+    {
+      "char_end": 23,
+      "char_start": 22,
+      "comparison_key": null,
+      "exact_text": "!",
+      "kind": "punctuation",
+      "token_index": 8
+    },
+    {
+      "char_end": 25,
+      "char_start": 23,
+      "comparison_key": null,
+      "exact_text": "\r\n",
+      "kind": "whitespace",
+      "token_index": 9
+    },
+    {
+      "char_end": 30,
+      "char_start": 25,
+      "comparison_key": "don't",
+      "exact_text": "Don’t",
+      "kind": "word",
+      "token_index": 10
+    },
+    {
+      "char_end": 31,
+      "char_start": 30,
+      "comparison_key": null,
+      "exact_text": " ",
+      "kind": "whitespace",
+      "token_index": 11
+    },
+    {
+      "char_end": 36,
+      "char_start": 31,
+      "comparison_key": "alter",
+      "exact_text": "alter",
+      "kind": "word",
+      "token_index": 12
+    },
+    {
+      "char_end": 37,
+      "char_start": 36,
+      "comparison_key": null,
+      "exact_text": " ",
+      "kind": "whitespace",
+      "token_index": 13
+    },
+    {
+      "char_end": 43,
+      "char_start": 37,
+      "comparison_key": "привіт",
+      "exact_text": "Привіт",
+      "kind": "word",
+      "token_index": 14
+    },
+    {
+      "char_end": 44,
+      "char_start": 43,
+      "comparison_key": null,
+      "exact_text": ".",
+      "kind": "punctuation",
+      "token_index": 15
+    },
+    {
+      "char_end": 45,
+      "char_start": 44,
+      "comparison_key": null,
+      "exact_text": " ",
+      "kind": "whitespace",
+      "token_index": 16
+    },
+    {
+      "char_end": 53,
+      "char_start": 45,
+      "comparison_key": "trailing",
+      "exact_text": "Trailing",
+      "kind": "word",
+      "token_index": 17
+    }
+  ],
+  "unmatched_asr_words": [
+    {
+      "cleaned_end_sample": 4900,
+      "cleaned_start_sample": 4800,
+      "confidence": 0.55,
+      "original_end_sample": 5900,
+      "original_start_sample": 5800,
+      "recognition_index": 5,
+      "text": "um"
+    }
+  ],
+  "warnings": [
+    "text alignment coverage is below configured minimum"
+  ]
+}

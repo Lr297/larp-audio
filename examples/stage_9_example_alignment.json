@@ -1,0 +1,601 @@
+{
+  "aligned_words": [
+    {
+      "alignment_operation_id": "alignment-op-000000",
+      "alignment_score": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "asr_confidence": 0.9,
+      "char_end": 6,
+      "char_start": 0,
+      "cleaned_end_sample": 1000,
+      "cleaned_start_sample": 500,
+      "exact_text": "Привет",
+      "interpolation_left_anchor_script_word_index": null,
+      "interpolation_right_anchor_script_word_index": null,
+      "match_type": "exact",
+      "matched_recognition_indices": [
+        0
+      ],
+      "original_end_sample": 1000,
+      "original_start_sample": 500,
+      "script_word_index": 0,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 0,
+      "warnings": []
+    },
+    {
+      "alignment_operation_id": null,
+      "alignment_score": null,
+      "asr_confidence": null,
+      "char_end": 14,
+      "char_start": 7,
+      "cleaned_end_sample": 3000,
+      "cleaned_start_sample": 1000,
+      "exact_text": "missing",
+      "interpolation_left_anchor_script_word_index": 0,
+      "interpolation_right_anchor_script_word_index": 2,
+      "match_type": "interpolated",
+      "matched_recognition_indices": [],
+      "original_end_sample": 3000,
+      "original_start_sample": 1000,
+      "script_word_index": 1,
+      "text_similarity": null,
+      "timing_status": "interpolated",
+      "token_index": 2,
+      "warnings": [
+        "timing interpolated between reliable ASR anchors"
+      ]
+    },
+    {
+      "alignment_operation_id": "alignment-op-000003",
+      "alignment_score": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "asr_confidence": 0.9,
+      "char_end": 18,
+      "char_start": 15,
+      "cleaned_end_sample": 3500,
+      "cleaned_start_sample": 3000,
+      "exact_text": "мир",
+      "interpolation_left_anchor_script_word_index": null,
+      "interpolation_right_anchor_script_word_index": null,
+      "match_type": "exact",
+      "matched_recognition_indices": [
+        3
+      ],
+      "original_end_sample": 3500,
+      "original_start_sample": 3000,
+      "script_word_index": 2,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 4,
+      "warnings": []
+    },
+    {
+      "alignment_operation_id": "alignment-op-000004",
+      "alignment_score": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "asr_confidence": 0.9,
+      "char_end": 26,
+      "char_start": 21,
+      "cleaned_end_sample": 5400,
+      "cleaned_start_sample": 5000,
+      "exact_text": "Dobrý",
+      "interpolation_left_anchor_script_word_index": null,
+      "interpolation_right_anchor_script_word_index": null,
+      "match_type": "exact",
+      "matched_recognition_indices": [
+        4
+      ],
+      "original_end_sample": 6400,
+      "original_start_sample": 6000,
+      "script_word_index": 3,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 7,
+      "warnings": []
+    },
+    {
+      "alignment_operation_id": "alignment-op-000005",
+      "alignment_score": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "asr_confidence": 0.9,
+      "char_end": 30,
+      "char_start": 27,
+      "cleaned_end_sample": 5900,
+      "cleaned_start_sample": 5500,
+      "exact_text": "deň",
+      "interpolation_left_anchor_script_word_index": null,
+      "interpolation_right_anchor_script_word_index": null,
+      "match_type": "exact",
+      "matched_recognition_indices": [
+        5
+      ],
+      "original_end_sample": 6900,
+      "original_start_sample": 6500,
+      "script_word_index": 4,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 9,
+      "warnings": []
+    },
+    {
+      "alignment_operation_id": null,
+      "alignment_score": null,
+      "asr_confidence": null,
+      "char_end": 39,
+      "char_start": 31,
+      "cleaned_end_sample": null,
+      "cleaned_start_sample": null,
+      "exact_text": "trailing",
+      "interpolation_left_anchor_script_word_index": null,
+      "interpolation_right_anchor_script_word_index": null,
+      "match_type": "unresolved",
+      "matched_recognition_indices": [],
+      "original_end_sample": null,
+      "original_start_sample": null,
+      "script_word_index": 5,
+      "text_similarity": null,
+      "timing_status": "unresolved",
+      "token_index": 11,
+      "warnings": [
+        "no reliable observed timing assigned"
+      ]
+    }
+  ],
+  "configuration": {
+    "enable_fuzzy_matching": "true",
+    "enable_split_merge": "true",
+    "fuzzy_threshold": "0.84",
+    "max_dp_cells": "250000",
+    "max_interpolation_gap_ms": "2000",
+    "max_interpolation_words": "3",
+    "min_fuzzy_token_length": "4",
+    "minimum_coverage_warning": "0.80",
+    "policy_version": "script-asr-dp-v1"
+  },
+  "diagnostics": {
+    "classified_asr_words": 6,
+    "exact_matches": 4,
+    "fuzzy_matches": 0,
+    "interpolated_words": 1,
+    "normalized_matches": 0,
+    "observed_timing_coverage": {
+      "decimal": "0.6666666666666666666666666667",
+      "denominator": 3,
+      "numerator": 2
+    },
+    "provenance_complete": true,
+    "rejected_asr_evidence_count": 1,
+    "split_merge_matches": 0,
+    "substitutions": 1,
+    "text_alignment_coverage": {
+      "decimal": "0.6666666666666666666666666667",
+      "denominator": 3,
+      "numerator": 2
+    },
+    "total_asr_words": 6,
+    "total_script_words": 6,
+    "total_timing_coverage": {
+      "decimal": "0.8333333333333333333333333333",
+      "denominator": 6,
+      "numerator": 5
+    },
+    "unmatched_asr_words": 1,
+    "unresolved_script_words": 1
+  },
+  "edit_map": {
+    "audio": {
+      "removed_samples": 1000,
+      "sample_rate": 1000,
+      "source_sha256": "stage-9-source-hash",
+      "source_total_samples": 9000,
+      "target_sha256": "stage-9-cleaned-hash",
+      "target_total_samples": 8000
+    },
+    "policy": {
+      "parameters": {},
+      "version": "stage-9-example-v1"
+    },
+    "schema_version": "1",
+    "spans": [
+      {
+        "kind": "keep",
+        "reason": "kept example audio",
+        "removed_samples": 0,
+        "source_end": 4000,
+        "source_start": 0,
+        "target_end": 4000,
+        "target_start": 0
+      },
+      {
+        "candidate": {
+          "source_end": 5250,
+          "source_start": 3750
+        },
+        "kind": "remove",
+        "reason": "shortened example pause",
+        "removed_samples": 1000,
+        "retained_after_samples": 250,
+        "retained_before_samples": 250,
+        "source_end": 5000,
+        "source_start": 4000,
+        "target_end": 4000,
+        "target_start": 4000
+      },
+      {
+        "kind": "keep",
+        "reason": "kept example audio",
+        "removed_samples": 0,
+        "source_end": 9000,
+        "source_start": 5000,
+        "target_end": 8000,
+        "target_start": 4000
+      }
+    ],
+    "warnings": []
+  },
+  "recognition": {
+    "backend": "faster-whisper",
+    "duration": {
+      "cleaned_samples": 8000,
+      "cleaned_seconds": {
+        "decimal": "8",
+        "denominator": 1,
+        "numerator": 8
+      },
+      "original_samples": 9000,
+      "original_seconds": {
+        "decimal": "9",
+        "denominator": 1,
+        "numerator": 9
+      }
+    },
+    "language": null,
+    "metadata": {
+      "cleaned_audio_sha256": "stage-9-cleaned-hash"
+    },
+    "model": "tiny",
+    "sample_rate": 1000,
+    "schema_version": "1",
+    "words": [
+      {
+        "confidence": 0.9,
+        "end_sample_cleaned": 1000,
+        "end_sample_original": 1000,
+        "end_seconds": {
+          "decimal": "1",
+          "denominator": 1,
+          "numerator": 1
+        },
+        "end_seconds_original": {
+          "decimal": "1",
+          "denominator": 1,
+          "numerator": 1
+        },
+        "start_sample_cleaned": 500,
+        "start_sample_original": 500,
+        "start_seconds": {
+          "decimal": "0.5",
+          "denominator": 2,
+          "numerator": 1
+        },
+        "start_seconds_original": {
+          "decimal": "0.5",
+          "denominator": 2,
+          "numerator": 1
+        },
+        "text": "Привет"
+      },
+      {
+        "confidence": 0.9,
+        "end_sample_cleaned": 1200,
+        "end_sample_original": 1200,
+        "end_seconds": {
+          "decimal": "1.2",
+          "denominator": 5,
+          "numerator": 6
+        },
+        "end_seconds_original": {
+          "decimal": "1.2",
+          "denominator": 5,
+          "numerator": 6
+        },
+        "start_sample_cleaned": 1100,
+        "start_sample_original": 1100,
+        "start_seconds": {
+          "decimal": "1.1",
+          "denominator": 10,
+          "numerator": 11
+        },
+        "start_seconds_original": {
+          "decimal": "1.1",
+          "denominator": 10,
+          "numerator": 11
+        },
+        "text": "um"
+      },
+      {
+        "confidence": 0.9,
+        "end_sample_cleaned": 1400,
+        "end_sample_original": 1400,
+        "end_seconds": {
+          "decimal": "1.4",
+          "denominator": 5,
+          "numerator": 7
+        },
+        "end_seconds_original": {
+          "decimal": "1.4",
+          "denominator": 5,
+          "numerator": 7
+        },
+        "start_sample_cleaned": 1300,
+        "start_sample_original": 1300,
+        "start_seconds": {
+          "decimal": "1.3",
+          "denominator": 10,
+          "numerator": 13
+        },
+        "start_seconds_original": {
+          "decimal": "1.3",
+          "denominator": 10,
+          "numerator": 13
+        },
+        "text": "uh"
+      },
+      {
+        "confidence": 0.9,
+        "end_sample_cleaned": 3500,
+        "end_sample_original": 3500,
+        "end_seconds": {
+          "decimal": "3.5",
+          "denominator": 2,
+          "numerator": 7
+        },
+        "end_seconds_original": {
+          "decimal": "3.5",
+          "denominator": 2,
+          "numerator": 7
+        },
+        "start_sample_cleaned": 3000,
+        "start_sample_original": 3000,
+        "start_seconds": {
+          "decimal": "3",
+          "denominator": 1,
+          "numerator": 3
+        },
+        "start_seconds_original": {
+          "decimal": "3",
+          "denominator": 1,
+          "numerator": 3
+        },
+        "text": "мир"
+      },
+      {
+        "confidence": 0.9,
+        "end_sample_cleaned": 5400,
+        "end_sample_original": 6400,
+        "end_seconds": {
+          "decimal": "5.4",
+          "denominator": 5,
+          "numerator": 27
+        },
+        "end_seconds_original": {
+          "decimal": "6.4",
+          "denominator": 5,
+          "numerator": 32
+        },
+        "start_sample_cleaned": 5000,
+        "start_sample_original": 6000,
+        "start_seconds": {
+          "decimal": "5",
+          "denominator": 1,
+          "numerator": 5
+        },
+        "start_seconds_original": {
+          "decimal": "6",
+          "denominator": 1,
+          "numerator": 6
+        },
+        "text": "Dobrý"
+      },
+      {
+        "confidence": 0.9,
+        "end_sample_cleaned": 5900,
+        "end_sample_original": 6900,
+        "end_seconds": {
+          "decimal": "5.9",
+          "denominator": 10,
+          "numerator": 59
+        },
+        "end_seconds_original": {
+          "decimal": "6.9",
+          "denominator": 10,
+          "numerator": 69
+        },
+        "start_sample_cleaned": 5500,
+        "start_sample_original": 6500,
+        "start_seconds": {
+          "decimal": "5.5",
+          "denominator": 2,
+          "numerator": 11
+        },
+        "start_seconds_original": {
+          "decimal": "6.5",
+          "denominator": 2,
+          "numerator": 13
+        },
+        "text": "deň"
+      }
+    ]
+  },
+  "rejected_asr_evidence": [
+    {
+      "attempted_match_type": "substitution",
+      "attempted_operation_id": "alignment-op-000001",
+      "cleaned_end_sample": 1200,
+      "cleaned_start_sample": 1100,
+      "confidence": 0.9,
+      "original_end_sample": 1200,
+      "original_start_sample": 1100,
+      "recognition_index": 1,
+      "rejection_reason": "substitution_not_accepted",
+      "related_script_word_indices": [
+        1
+      ],
+      "text": "um"
+    }
+  ],
+  "sample_rate": 1000,
+  "schema_version": "alignment.schema.v2",
+  "script": {
+    "character_count": 39,
+    "encoding": "utf-8",
+    "exact_text": "Привет missing мир!\r\nDobrý deň trailing",
+    "has_bom": true,
+    "line_count": 2,
+    "source_path": "examples/stage_9_example_script.txt",
+    "source_sha256": "45ff006a3a6f3c19c67ad4be348abc86550ed2b4e9ba35c4588f1e1c68081fb6"
+  },
+  "tokens": [
+    {
+      "char_end": 6,
+      "char_start": 0,
+      "comparison_key": "привет",
+      "exact_text": "Привет",
+      "kind": "word",
+      "token_index": 0
+    },
+    {
+      "char_end": 7,
+      "char_start": 6,
+      "comparison_key": null,
+      "exact_text": " ",
+      "kind": "whitespace",
+      "token_index": 1
+    },
+    {
+      "char_end": 14,
+      "char_start": 7,
+      "comparison_key": "missing",
+      "exact_text": "missing",
+      "kind": "word",
+      "token_index": 2
+    },
+    {
+      "char_end": 15,
+      "char_start": 14,
+      "comparison_key": null,
+      "exact_text": " ",
+      "kind": "whitespace",
+      "token_index": 3
+    },
+    {
+      "char_end": 18,
+      "char_start": 15,
+      "comparison_key": "мир",
+      "exact_text": "мир",
+      "kind": "word",
+      "token_index": 4
+    },
+    {
+      "char_end": 19,
+      "char_start": 18,
+      "comparison_key": null,
+      "exact_text": "!",
+      "kind": "punctuation",
+      "token_index": 5
+    },
+    {
+      "char_end": 21,
+      "char_start": 19,
+      "comparison_key": null,
+      "exact_text": "\r\n",
+      "kind": "whitespace",
+      "token_index": 6
+    },
+    {
+      "char_end": 26,
+      "char_start": 21,
+      "comparison_key": "dobrý",
+      "exact_text": "Dobrý",
+      "kind": "word",
+      "token_index": 7
+    },
+    {
+      "char_end": 27,
+      "char_start": 26,
+      "comparison_key": null,
+      "exact_text": " ",
+      "kind": "whitespace",
+      "token_index": 8
+    },
+    {
+      "char_end": 30,
+      "char_start": 27,
+      "comparison_key": "deň",
+      "exact_text": "deň",
+      "kind": "word",
+      "token_index": 9
+    },
+    {
+      "char_end": 31,
+      "char_start": 30,
+      "comparison_key": null,
+      "exact_text": " ",
+      "kind": "whitespace",
+      "token_index": 10
+    },
+    {
+      "char_end": 39,
+      "char_start": 31,
+      "comparison_key": "trailing",
+      "exact_text": "trailing",
+      "kind": "word",
+      "token_index": 11
+    }
+  ],
+  "unmatched_asr_words": [
+    {
+      "cleaned_end_sample": 1400,
+      "cleaned_start_sample": 1300,
+      "confidence": 0.9,
+      "original_end_sample": 1400,
+      "original_start_sample": 1300,
+      "recognition_index": 2,
+      "text": "uh"
+    }
+  ],
+  "warnings": [
+    "text alignment coverage is below configured minimum",
+    "one or more ASR observations were rejected as match evidence"
+  ]
+}

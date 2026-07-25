@@ -1,0 +1,155 @@
+{
+  "blocks": [
+    {
+      "block_index": 1,
+      "characters_per_second": {
+        "decimal": "5.666666666666666666666666667",
+        "denominator": 3,
+        "numerator": 17
+      },
+      "cleaned_end_sample": 3500,
+      "cleaned_start_sample": 500,
+      "contains_interpolated_words": true,
+      "contains_unresolved_words": false,
+      "display_lines": [
+        "Привет missing мир!"
+      ],
+      "duration_samples": 3000,
+      "first_token_index": 0,
+      "interpolated_script_word_indices": [
+        1
+      ],
+      "last_token_index": 6,
+      "original_end_sample": 3500,
+      "original_start_sample": 500,
+      "script_word_indices": [
+        0,
+        1,
+        2
+      ],
+      "source_char_end": 21,
+      "source_char_start": 0,
+      "source_text_exact": "Привет missing мир!\r\n",
+      "timing_provenance": "mixed_observed_interpolated",
+      "unresolved_script_word_indices": [],
+      "visible_character_count": 17,
+      "warnings": [
+        "block contains interpolated script timing"
+      ],
+      "word_count": 3
+    },
+    {
+      "block_index": 2,
+      "characters_per_second": {
+        "decimal": "17.77777777777777777777777778",
+        "denominator": 9,
+        "numerator": 160
+      },
+      "cleaned_end_sample": 5900,
+      "cleaned_start_sample": 5000,
+      "contains_interpolated_words": false,
+      "contains_unresolved_words": true,
+      "display_lines": [
+        "Dobrý deň trailing"
+      ],
+      "duration_samples": 900,
+      "first_token_index": 7,
+      "interpolated_script_word_indices": [],
+      "last_token_index": 11,
+      "original_end_sample": 6900,
+      "original_start_sample": 6000,
+      "script_word_indices": [
+        3,
+        4,
+        5
+      ],
+      "source_char_end": 39,
+      "source_char_start": 21,
+      "source_text_exact": "Dobrý deň trailing",
+      "timing_provenance": "anchored_with_unresolved",
+      "unresolved_script_word_indices": [
+        5
+      ],
+      "visible_character_count": 16,
+      "warnings": [
+        "block contains attached unresolved words without fabricated timing"
+      ],
+      "word_count": 3
+    }
+  ],
+  "cleaned_total_samples": 8000,
+  "configuration": {
+    "allow_unresolved_attachment": "true",
+    "max_characters_per_line": "32",
+    "max_characters_per_second": "20",
+    "max_duration_ms": "7000",
+    "max_lines": "2",
+    "max_segmentation_cells": "250000",
+    "max_unresolved_words_per_block": "2",
+    "max_words_per_block": "10",
+    "minimum_timing_coverage_for_export": "0.70",
+    "policy_version": "subtitle-dp-v1",
+    "preferred_gap_break_ms": "450",
+    "preferred_min_duration_ms": "800"
+  },
+  "diagnostics": {
+    "attached_unresolved_words": 1,
+    "average_block_duration": {
+      "decimal": "1.95",
+      "denominator": 20,
+      "numerator": 39
+    },
+    "average_characters_per_second": {
+      "decimal": "11.72222222222222222222222222",
+      "denominator": 18,
+      "numerator": 211
+    },
+    "blocks_over_cps_limit": 0,
+    "blocks_over_duration_limit": 0,
+    "blocks_over_line_length_limit": 0,
+    "blocks_with_interpolated_words": 1,
+    "blocks_with_unresolved_words": 1,
+    "exported_script_words": 6,
+    "interpolated_script_words": 1,
+    "maximum_block_duration": {
+      "decimal": "3",
+      "denominator": 1,
+      "numerator": 3
+    },
+    "maximum_characters_per_second": {
+      "decimal": "17.77777777777777777777777778",
+      "denominator": 9,
+      "numerator": 160
+    },
+    "srt_exportable": true,
+    "text_coverage": {
+      "decimal": "1",
+      "denominator": 1,
+      "numerator": 1
+    },
+    "timing_coverage": {
+      "decimal": "0.8333333333333333333333333333",
+      "denominator": 6,
+      "numerator": 5
+    },
+    "total_blocks": 2,
+    "total_script_words": 6,
+    "unresolved_script_words": 1,
+    "warnings_count": 4
+  },
+  "original_total_samples": 9000,
+  "sample_rate": 1000,
+  "schema_version": "subtitle_blocks.schema.v1",
+  "script": {
+    "encoding": "utf-8",
+    "exact_text": "Привет missing мир!\r\nDobrý deň trailing",
+    "has_bom": true,
+    "source_sha256": "45ff006a3a6f3c19c67ad4be348abc86550ed2b4e9ba35c4588f1e1c68081fb6"
+  },
+  "source_alignment_schema_version": "alignment.schema.v2",
+  "source_alignment_sha256": "bc850dc5a90ec1dacf1279689ac59f75182b14488f00a2b2245f386bf030b9df",
+  "warnings": [
+    "interpolated script timing is present and remains explicitly marked",
+    "unresolved script words were attached without fabricated word timing"
+  ]
+}

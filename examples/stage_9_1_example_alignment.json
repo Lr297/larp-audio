@@ -1,0 +1,770 @@
+{
+  "aligned_words": [
+    {
+      "alignment_operation_id": "alignment-op-000000",
+      "alignment_score": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "asr_confidence": 0.9,
+      "char_end": 3,
+      "char_start": 0,
+      "cleaned_end_sample": 1000,
+      "cleaned_start_sample": 500,
+      "exact_text": "One",
+      "interpolation_left_anchor_script_word_index": null,
+      "interpolation_right_anchor_script_word_index": null,
+      "match_type": "exact",
+      "matched_recognition_indices": [
+        0
+      ],
+      "original_end_sample": 1000,
+      "original_start_sample": 500,
+      "script_word_index": 0,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 0,
+      "warnings": []
+    },
+    {
+      "alignment_operation_id": "alignment-op-000001",
+      "alignment_score": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "asr_confidence": 0.9,
+      "char_end": 8,
+      "char_start": 5,
+      "cleaned_end_sample": 1950,
+      "cleaned_start_sample": 1450,
+      "exact_text": "two",
+      "interpolation_left_anchor_script_word_index": null,
+      "interpolation_right_anchor_script_word_index": null,
+      "match_type": "exact",
+      "matched_recognition_indices": [
+        1
+      ],
+      "original_end_sample": 1950,
+      "original_start_sample": 1450,
+      "script_word_index": 1,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 3,
+      "warnings": []
+    },
+    {
+      "alignment_operation_id": "alignment-op-000002",
+      "alignment_score": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "asr_confidence": 0.9,
+      "char_end": 15,
+      "char_start": 10,
+      "cleaned_end_sample": 2900,
+      "cleaned_start_sample": 2400,
+      "exact_text": "three",
+      "interpolation_left_anchor_script_word_index": null,
+      "interpolation_right_anchor_script_word_index": null,
+      "match_type": "exact",
+      "matched_recognition_indices": [
+        2
+      ],
+      "original_end_sample": 2900,
+      "original_start_sample": 2400,
+      "script_word_index": 2,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 6,
+      "warnings": []
+    },
+    {
+      "alignment_operation_id": "alignment-op-000003",
+      "alignment_score": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "asr_confidence": 0.9,
+      "char_end": 21,
+      "char_start": 17,
+      "cleaned_end_sample": 3850,
+      "cleaned_start_sample": 3350,
+      "exact_text": "four",
+      "interpolation_left_anchor_script_word_index": null,
+      "interpolation_right_anchor_script_word_index": null,
+      "match_type": "exact",
+      "matched_recognition_indices": [
+        3
+      ],
+      "original_end_sample": 3850,
+      "original_start_sample": 3350,
+      "script_word_index": 3,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 9,
+      "warnings": []
+    },
+    {
+      "alignment_operation_id": "alignment-op-000004",
+      "alignment_score": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "asr_confidence": 0.9,
+      "char_end": 27,
+      "char_start": 23,
+      "cleaned_end_sample": 4800,
+      "cleaned_start_sample": 4300,
+      "exact_text": "five",
+      "interpolation_left_anchor_script_word_index": null,
+      "interpolation_right_anchor_script_word_index": null,
+      "match_type": "exact",
+      "matched_recognition_indices": [
+        4
+      ],
+      "original_end_sample": 4800,
+      "original_start_sample": 4300,
+      "script_word_index": 4,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 12,
+      "warnings": []
+    },
+    {
+      "alignment_operation_id": "alignment-op-000005",
+      "alignment_score": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "asr_confidence": 0.9,
+      "char_end": 34,
+      "char_start": 30,
+      "cleaned_end_sample": 7000,
+      "cleaned_start_sample": 6500,
+      "exact_text": "Stop",
+      "interpolation_left_anchor_script_word_index": null,
+      "interpolation_right_anchor_script_word_index": null,
+      "match_type": "exact",
+      "matched_recognition_indices": [
+        5
+      ],
+      "original_end_sample": 7000,
+      "original_start_sample": 6500,
+      "script_word_index": 5,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 15,
+      "warnings": []
+    },
+    {
+      "alignment_operation_id": "alignment-op-000006",
+      "alignment_score": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "asr_confidence": 0.9,
+      "char_end": 43,
+      "char_start": 37,
+      "cleaned_end_sample": 9000,
+      "cleaned_start_sample": 8500,
+      "exact_text": "Привет",
+      "interpolation_left_anchor_script_word_index": null,
+      "interpolation_right_anchor_script_word_index": null,
+      "match_type": "exact",
+      "matched_recognition_indices": [
+        6
+      ],
+      "original_end_sample": 9000,
+      "original_start_sample": 8500,
+      "script_word_index": 6,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 18,
+      "warnings": []
+    },
+    {
+      "alignment_operation_id": "alignment-op-000007",
+      "alignment_score": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "asr_confidence": 0.9,
+      "char_end": 49,
+      "char_start": 45,
+      "cleaned_end_sample": 9950,
+      "cleaned_start_sample": 9450,
+      "exact_text": "svet",
+      "interpolation_left_anchor_script_word_index": null,
+      "interpolation_right_anchor_script_word_index": null,
+      "match_type": "exact",
+      "matched_recognition_indices": [
+        7
+      ],
+      "original_end_sample": 9950,
+      "original_start_sample": 9450,
+      "script_word_index": 7,
+      "text_similarity": {
+        "decimal": "1",
+        "denominator": 1,
+        "numerator": 1
+      },
+      "timing_status": "observed",
+      "token_index": 21,
+      "warnings": []
+    }
+  ],
+  "configuration": {
+    "enable_fuzzy_matching": "true",
+    "enable_split_merge": "true",
+    "fuzzy_threshold": "0.84",
+    "max_dp_cells": "250000",
+    "max_interpolation_gap_ms": "2000",
+    "max_interpolation_words": "3",
+    "min_fuzzy_token_length": "4",
+    "minimum_coverage_warning": "0.80",
+    "policy_version": "script-asr-dp-v1"
+  },
+  "diagnostics": {
+    "classified_asr_words": 8,
+    "exact_matches": 8,
+    "fuzzy_matches": 0,
+    "interpolated_words": 0,
+    "normalized_matches": 0,
+    "observed_timing_coverage": {
+      "decimal": "1",
+      "denominator": 1,
+      "numerator": 1
+    },
+    "provenance_complete": true,
+    "rejected_asr_evidence_count": 0,
+    "split_merge_matches": 0,
+    "substitutions": 0,
+    "text_alignment_coverage": {
+      "decimal": "1",
+      "denominator": 1,
+      "numerator": 1
+    },
+    "total_asr_words": 8,
+    "total_script_words": 8,
+    "total_timing_coverage": {
+      "decimal": "1",
+      "denominator": 1,
+      "numerator": 1
+    },
+    "unmatched_asr_words": 0,
+    "unresolved_script_words": 0
+  },
+  "edit_map": {
+    "audio": {
+      "removed_samples": 0,
+      "sample_rate": 1000,
+      "source_sha256": "stage-9-1-source-hash",
+      "source_total_samples": 11000,
+      "target_sha256": "stage-9-1-cleaned-hash",
+      "target_total_samples": 11000
+    },
+    "policy": {
+      "parameters": {},
+      "version": "stage-9-1-example-v1"
+    },
+    "schema_version": "1",
+    "spans": [
+      {
+        "kind": "keep",
+        "reason": "identity example timeline",
+        "removed_samples": 0,
+        "source_end": 11000,
+        "source_start": 0,
+        "target_end": 11000,
+        "target_start": 0
+      }
+    ],
+    "warnings": []
+  },
+  "recognition": {
+    "backend": "faster-whisper",
+    "duration": {
+      "cleaned_samples": 11000,
+      "cleaned_seconds": {
+        "decimal": "11",
+        "denominator": 1,
+        "numerator": 11
+      },
+      "original_samples": 11000,
+      "original_seconds": {
+        "decimal": "11",
+        "denominator": 1,
+        "numerator": 11
+      }
+    },
+    "language": null,
+    "metadata": {
+      "cleaned_audio_sha256": "stage-9-1-cleaned-hash"
+    },
+    "model": "tiny",
+    "sample_rate": 1000,
+    "schema_version": "1",
+    "words": [
+      {
+        "confidence": 0.9,
+        "end_sample_cleaned": 1000,
+        "end_sample_original": 1000,
+        "end_seconds": {
+          "decimal": "1",
+          "denominator": 1,
+          "numerator": 1
+        },
+        "end_seconds_original": {
+          "decimal": "1",
+          "denominator": 1,
+          "numerator": 1
+        },
+        "start_sample_cleaned": 500,
+        "start_sample_original": 500,
+        "start_seconds": {
+          "decimal": "0.5",
+          "denominator": 2,
+          "numerator": 1
+        },
+        "start_seconds_original": {
+          "decimal": "0.5",
+          "denominator": 2,
+          "numerator": 1
+        },
+        "text": "One"
+      },
+      {
+        "confidence": 0.9,
+        "end_sample_cleaned": 1950,
+        "end_sample_original": 1950,
+        "end_seconds": {
+          "decimal": "1.95",
+          "denominator": 20,
+          "numerator": 39
+        },
+        "end_seconds_original": {
+          "decimal": "1.95",
+          "denominator": 20,
+          "numerator": 39
+        },
+        "start_sample_cleaned": 1450,
+        "start_sample_original": 1450,
+        "start_seconds": {
+          "decimal": "1.45",
+          "denominator": 20,
+          "numerator": 29
+        },
+        "start_seconds_original": {
+          "decimal": "1.45",
+          "denominator": 20,
+          "numerator": 29
+        },
+        "text": "two"
+      },
+      {
+        "confidence": 0.9,
+        "end_sample_cleaned": 2900,
+        "end_sample_original": 2900,
+        "end_seconds": {
+          "decimal": "2.9",
+          "denominator": 10,
+          "numerator": 29
+        },
+        "end_seconds_original": {
+          "decimal": "2.9",
+          "denominator": 10,
+          "numerator": 29
+        },
+        "start_sample_cleaned": 2400,
+        "start_sample_original": 2400,
+        "start_seconds": {
+          "decimal": "2.4",
+          "denominator": 5,
+          "numerator": 12
+        },
+        "start_seconds_original": {
+          "decimal": "2.4",
+          "denominator": 5,
+          "numerator": 12
+        },
+        "text": "three"
+      },
+      {
+        "confidence": 0.9,
+        "end_sample_cleaned": 3850,
+        "end_sample_original": 3850,
+        "end_seconds": {
+          "decimal": "3.85",
+          "denominator": 20,
+          "numerator": 77
+        },
+        "end_seconds_original": {
+          "decimal": "3.85",
+          "denominator": 20,
+          "numerator": 77
+        },
+        "start_sample_cleaned": 3350,
+        "start_sample_original": 3350,
+        "start_seconds": {
+          "decimal": "3.35",
+          "denominator": 20,
+          "numerator": 67
+        },
+        "start_seconds_original": {
+          "decimal": "3.35",
+          "denominator": 20,
+          "numerator": 67
+        },
+        "text": "four"
+      },
+      {
+        "confidence": 0.9,
+        "end_sample_cleaned": 4800,
+        "end_sample_original": 4800,
+        "end_seconds": {
+          "decimal": "4.8",
+          "denominator": 5,
+          "numerator": 24
+        },
+        "end_seconds_original": {
+          "decimal": "4.8",
+          "denominator": 5,
+          "numerator": 24
+        },
+        "start_sample_cleaned": 4300,
+        "start_sample_original": 4300,
+        "start_seconds": {
+          "decimal": "4.3",
+          "denominator": 10,
+          "numerator": 43
+        },
+        "start_seconds_original": {
+          "decimal": "4.3",
+          "denominator": 10,
+          "numerator": 43
+        },
+        "text": "five"
+      },
+      {
+        "confidence": 0.9,
+        "end_sample_cleaned": 7000,
+        "end_sample_original": 7000,
+        "end_seconds": {
+          "decimal": "7",
+          "denominator": 1,
+          "numerator": 7
+        },
+        "end_seconds_original": {
+          "decimal": "7",
+          "denominator": 1,
+          "numerator": 7
+        },
+        "start_sample_cleaned": 6500,
+        "start_sample_original": 6500,
+        "start_seconds": {
+          "decimal": "6.5",
+          "denominator": 2,
+          "numerator": 13
+        },
+        "start_seconds_original": {
+          "decimal": "6.5",
+          "denominator": 2,
+          "numerator": 13
+        },
+        "text": "Stop"
+      },
+      {
+        "confidence": 0.9,
+        "end_sample_cleaned": 9000,
+        "end_sample_original": 9000,
+        "end_seconds": {
+          "decimal": "9",
+          "denominator": 1,
+          "numerator": 9
+        },
+        "end_seconds_original": {
+          "decimal": "9",
+          "denominator": 1,
+          "numerator": 9
+        },
+        "start_sample_cleaned": 8500,
+        "start_sample_original": 8500,
+        "start_seconds": {
+          "decimal": "8.5",
+          "denominator": 2,
+          "numerator": 17
+        },
+        "start_seconds_original": {
+          "decimal": "8.5",
+          "denominator": 2,
+          "numerator": 17
+        },
+        "text": "Привет"
+      },
+      {
+        "confidence": 0.9,
+        "end_sample_cleaned": 9950,
+        "end_sample_original": 9950,
+        "end_seconds": {
+          "decimal": "9.95",
+          "denominator": 20,
+          "numerator": 199
+        },
+        "end_seconds_original": {
+          "decimal": "9.95",
+          "denominator": 20,
+          "numerator": 199
+        },
+        "start_sample_cleaned": 9450,
+        "start_sample_original": 9450,
+        "start_seconds": {
+          "decimal": "9.45",
+          "denominator": 20,
+          "numerator": 189
+        },
+        "start_seconds_original": {
+          "decimal": "9.45",
+          "denominator": 20,
+          "numerator": 189
+        },
+        "text": "svet"
+      }
+    ]
+  },
+  "rejected_asr_evidence": [],
+  "sample_rate": 1000,
+  "schema_version": "alignment.schema.v2",
+  "script": {
+    "character_count": 50,
+    "encoding": "utf-8",
+    "exact_text": "One, two, three, four, five.\r\nStop!\r\nПривет, svet!",
+    "has_bom": false,
+    "line_count": 3,
+    "source_path": "examples/stage_9_1_example_script.txt",
+    "source_sha256": "f6d195775a413624de526e37c83af984391ce53372d080e93f2ba12fc181ca43"
+  },
+  "tokens": [
+    {
+      "char_end": 3,
+      "char_start": 0,
+      "comparison_key": "one",
+      "exact_text": "One",
+      "kind": "word",
+      "token_index": 0
+    },
+    {
+      "char_end": 4,
+      "char_start": 3,
+      "comparison_key": null,
+      "exact_text": ",",
+      "kind": "punctuation",
+      "token_index": 1
+    },
+    {
+      "char_end": 5,
+      "char_start": 4,
+      "comparison_key": null,
+      "exact_text": " ",
+      "kind": "whitespace",
+      "token_index": 2
+    },
+    {
+      "char_end": 8,
+      "char_start": 5,
+      "comparison_key": "two",
+      "exact_text": "two",
+      "kind": "word",
+      "token_index": 3
+    },
+    {
+      "char_end": 9,
+      "char_start": 8,
+      "comparison_key": null,
+      "exact_text": ",",
+      "kind": "punctuation",
+      "token_index": 4
+    },
+    {
+      "char_end": 10,
+      "char_start": 9,
+      "comparison_key": null,
+      "exact_text": " ",
+      "kind": "whitespace",
+      "token_index": 5
+    },
+    {
+      "char_end": 15,
+      "char_start": 10,
+      "comparison_key": "three",
+      "exact_text": "three",
+      "kind": "word",
+      "token_index": 6
+    },
+    {
+      "char_end": 16,
+      "char_start": 15,
+      "comparison_key": null,
+      "exact_text": ",",
+      "kind": "punctuation",
+      "token_index": 7
+    },
+    {
+      "char_end": 17,
+      "char_start": 16,
+      "comparison_key": null,
+      "exact_text": " ",
+      "kind": "whitespace",
+      "token_index": 8
+    },
+    {
+      "char_end": 21,
+      "char_start": 17,
+      "comparison_key": "four",
+      "exact_text": "four",
+      "kind": "word",
+      "token_index": 9
+    },
+    {
+      "char_end": 22,
+      "char_start": 21,
+      "comparison_key": null,
+      "exact_text": ",",
+      "kind": "punctuation",
+      "token_index": 10
+    },
+    {
+      "char_end": 23,
+      "char_start": 22,
+      "comparison_key": null,
+      "exact_text": " ",
+      "kind": "whitespace",
+      "token_index": 11
+    },
+    {
+      "char_end": 27,
+      "char_start": 23,
+      "comparison_key": "five",
+      "exact_text": "five",
+      "kind": "word",
+      "token_index": 12
+    },
+    {
+      "char_end": 28,
+      "char_start": 27,
+      "comparison_key": null,
+      "exact_text": ".",
+      "kind": "punctuation",
+      "token_index": 13
+    },
+    {
+      "char_end": 30,
+      "char_start": 28,
+      "comparison_key": null,
+      "exact_text": "\r\n",
+      "kind": "whitespace",
+      "token_index": 14
+    },
+    {
+      "char_end": 34,
+      "char_start": 30,
+      "comparison_key": "stop",
+      "exact_text": "Stop",
+      "kind": "word",
+      "token_index": 15
+    },
+    {
+      "char_end": 35,
+      "char_start": 34,
+      "comparison_key": null,
+      "exact_text": "!",
+      "kind": "punctuation",
+      "token_index": 16
+    },
+    {
+      "char_end": 37,
+      "char_start": 35,
+      "comparison_key": null,
+      "exact_text": "\r\n",
+      "kind": "whitespace",
+      "token_index": 17
+    },
+    {
+      "char_end": 43,
+      "char_start": 37,
+      "comparison_key": "привет",
+      "exact_text": "Привет",
+      "kind": "word",
+      "token_index": 18
+    },
+    {
+      "char_end": 44,
+      "char_start": 43,
+      "comparison_key": null,
+      "exact_text": ",",
+      "kind": "punctuation",
+      "token_index": 19
+    },
+    {
+      "char_end": 45,
+      "char_start": 44,
+      "comparison_key": null,
+      "exact_text": " ",
+      "kind": "whitespace",
+      "token_index": 20
+    },
+    {
+      "char_end": 49,
+      "char_start": 45,
+      "comparison_key": "svet",
+      "exact_text": "svet",
+      "kind": "word",
+      "token_index": 21
+    },
+    {
+      "char_end": 50,
+      "char_start": 49,
+      "comparison_key": null,
+      "exact_text": "!",
+      "kind": "punctuation",
+      "token_index": 22
+    }
+  ],
+  "unmatched_asr_words": [],
+  "warnings": []
+}

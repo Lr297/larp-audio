@@ -1,0 +1,145 @@
+{
+  "audio": {
+    "cleaned_total_samples": 153600,
+    "sample_rate": 48000,
+    "sha256": "9a93368db9f2c935cde987f1fd88c9e395ec3443671ec02170f9d15405c49bb5"
+  },
+  "entries": [
+    {
+      "label": "Source samples",
+      "section": "Audio",
+      "severity": "info",
+      "value": "192000"
+    },
+    {
+      "label": "Cleaned samples",
+      "section": "Audio",
+      "severity": "success",
+      "value": "153600"
+    },
+    {
+      "label": "Removed",
+      "section": "Audio",
+      "severity": "info",
+      "value": "38400 (20.0%)"
+    },
+    {
+      "label": "Sample rate",
+      "section": "Audio",
+      "severity": "info",
+      "value": "48000 Hz"
+    },
+    {
+      "label": "Channels / sample width",
+      "section": "Audio",
+      "severity": "info",
+      "value": "1 / 16-bit PCM"
+    },
+    {
+      "label": "Detected pauses",
+      "section": "Audio",
+      "severity": "info",
+      "value": "1"
+    },
+    {
+      "label": "Language",
+      "section": "Recognition",
+      "severity": "info",
+      "value": "multi"
+    },
+    {
+      "label": "Model",
+      "section": "Recognition",
+      "severity": "info",
+      "value": "tiny"
+    },
+    {
+      "label": "Words",
+      "section": "Recognition",
+      "severity": "info",
+      "value": "5"
+    },
+    {
+      "label": "Unresolved words",
+      "section": "Alignment",
+      "severity": "success",
+      "value": "0"
+    },
+    {
+      "label": "Interpolated words",
+      "section": "Alignment",
+      "severity": "warning",
+      "value": "1"
+    },
+    {
+      "label": "Text coverage",
+      "section": "Alignment",
+      "severity": "info",
+      "value": "100.0%"
+    },
+    {
+      "label": "Timing coverage",
+      "section": "Alignment",
+      "severity": "info",
+      "value": "100.0%"
+    },
+    {
+      "label": "Blocks",
+      "section": "Subtitles",
+      "severity": "info",
+      "value": "3"
+    },
+    {
+      "label": "Single-word blocks",
+      "section": "Subtitles",
+      "severity": "info",
+      "value": "1"
+    },
+    {
+      "label": "Short blocks",
+      "section": "Subtitles",
+      "severity": "info",
+      "value": "2"
+    },
+    {
+      "label": "Maximum CPS",
+      "section": "Subtitles",
+      "severity": "info",
+      "value": "16.00"
+    },
+    {
+      "label": "Blocks with warnings",
+      "section": "Subtitles",
+      "severity": "warning",
+      "value": "2"
+    },
+    {
+      "label": "Artifact count",
+      "section": "Package",
+      "severity": "success",
+      "value": "8"
+    },
+    {
+      "label": "ZIP bytes",
+      "section": "Package",
+      "severity": "success",
+      "value": "8935"
+    },
+    {
+      "label": "Manifest / package / privacy / provenance",
+      "section": "Package",
+      "severity": "success",
+      "value": "validated"
+    }
+  ],
+  "media_backend_capability": "fake backend available; Qt Multimedia checked separately",
+  "package_validation": true,
+  "preview_available": true,
+  "provenance_validation": true,
+  "run_id": "stage11demo",
+  "schema_version": "preview_diagnostics.schema.v1",
+  "subtitle_block_count": 3,
+  "subtitle_document_sha256": "69d3b6def68275a8ac5b6cbe9ff97c0325b09e4ee9752078145e794055b8417b",
+  "timeline": "cleaned",
+  "warning_count": 2
+}

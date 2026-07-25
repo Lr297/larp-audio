@@ -1,0 +1,53 @@
+{
+  "audio": {
+    "removed_samples": 38400,
+    "sample_rate": 48000,
+    "source_sha256": "23dad33ea2a02e1ec864e77f00913336fe595a7b42b959d758d78e7bbad1005c",
+    "source_total_samples": 192000,
+    "target_sha256": "9a93368db9f2c935cde987f1fd88c9e395ec3443671ec02170f9d15405c49bb5",
+    "target_total_samples": 153600
+  },
+  "policy": {
+    "parameters": {},
+    "version": "synthetic-stage-11-v1"
+  },
+  "schema_version": "1",
+  "spans": [
+    {
+      "kind": "keep",
+      "reason": "keep before long pause center",
+      "removed_samples": 0,
+      "source_end": 82800,
+      "source_start": 0,
+      "target_end": 82800,
+      "target_start": 0
+    },
+    {
+      "candidate": {
+        "source_end": 126000,
+        "source_start": 78000
+      },
+      "kind": "remove",
+      "reason": "shorten deterministic pause center",
+      "removed_samples": 38400,
+      "retained_after_samples": 4800,
+      "retained_before_samples": 4800,
+      "source_end": 121200,
+      "source_start": 82800,
+      "target_end": 82800,
+      "target_start": 82800
+    },
+    {
+      "kind": "keep",
+      "reason": "keep after long pause center",
+      "removed_samples": 0,
+      "source_end": 192000,
+      "source_start": 121200,
+      "target_end": 153600,
+      "target_start": 82800
+    }
+  ],
+  "warnings": [
+    "synthetic_demo_recognition"
+  ]
+}

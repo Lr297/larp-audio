@@ -1,0 +1,85 @@
+{
+  "audio": {
+    "removed_samples": 48000,
+    "sample_rate": 48000,
+    "source_sha256": "3eabb5e0d3b867776f0a202ac06cee02fa2cbe742463a9f11e1f19d205f98a7f",
+    "source_total_samples": 124800,
+    "target_sha256": "826df132cd04c3ddbb58881ca09f89090367f8d9abda6234dc454d012005d48e",
+    "target_total_samples": 76800
+  },
+  "policy": {
+    "parameters": {
+      "maximum_removed_per_pause_ms": 1000,
+      "maximum_removed_per_pause_samples": 48000,
+      "minimum_pause_to_shorten_ms": 500,
+      "minimum_pause_to_shorten_samples": 24000,
+      "preserve_edge_silence": 1,
+      "target_remaining_pause_ms": 200,
+      "target_remaining_pause_samples": 9600
+    },
+    "version": "stage6-example-v1"
+  },
+  "schema_version": "1",
+  "spans": [
+    {
+      "kind": "keep",
+      "reason": "preserve_source_audio",
+      "removed_samples": 0,
+      "source_end": 24000,
+      "source_start": 0,
+      "target_end": 24000,
+      "target_start": 0
+    },
+    {
+      "candidate": {
+        "source_end": 48000,
+        "source_start": 19200
+      },
+      "kind": "remove",
+      "reason": "shorten_pause_middle",
+      "removed_samples": 19200,
+      "retained_after_samples": 4800,
+      "retained_before_samples": 4800,
+      "source_end": 43200,
+      "source_start": 24000,
+      "target_end": 24000,
+      "target_start": 24000
+    },
+    {
+      "kind": "keep",
+      "reason": "preserve_source_audio",
+      "removed_samples": 0,
+      "source_end": 72000,
+      "source_start": 43200,
+      "target_end": 52800,
+      "target_start": 24000
+    },
+    {
+      "candidate": {
+        "source_end": 105600,
+        "source_start": 67200
+      },
+      "kind": "remove",
+      "reason": "shorten_pause_middle",
+      "removed_samples": 28800,
+      "retained_after_samples": 4800,
+      "retained_before_samples": 4800,
+      "source_end": 100800,
+      "source_start": 72000,
+      "target_end": 52800,
+      "target_start": 52800
+    },
+    {
+      "kind": "keep",
+      "reason": "preserve_source_audio",
+      "removed_samples": 0,
+      "source_end": 124800,
+      "source_start": 100800,
+      "target_end": 76800,
+      "target_start": 52800
+    }
+  ],
+  "warnings": [
+    "signal_only_pause_policy_without_stt_alignment"
+  ]
+}

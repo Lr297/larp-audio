@@ -1,0 +1,12 @@
+{
+  "cleanup": {
+    "attempted": true,
+    "completed": false,
+    "error_code": "PIPELINE_CLEANUP_FAILED",
+    "manual_cleanup_may_be_required": true,
+    "residual_workspace_exists": true,
+    "staging_path_safe_display": ".demo.partial"
+  },
+  "primary_error_code": "SYNTHETIC_PRIMARY_FAILURE",
+  "schema_version": "pipeline_cleanup_outcome.schema.v1"
+}
