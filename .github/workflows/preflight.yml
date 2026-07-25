@@ -8,15 +8,41 @@ on:
 jobs:
   hygiene:
     runs-on: ubuntu-24.04
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: astral-sh/setup-uv@v6
-      - run: uv sync --frozen
+
+      - name: Install Linux GUI libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libegl1 \
+            libgl1 \
+            libglib2.0-0 \
+            libxkbcommon-x11-0 \
+            libxcb-cursor0 \
+            libxcb-icccm4 \
+            libxcb-image0 \
+            libxcb-keysyms1 \
+            libxcb-randr0 \
+            libxcb-render-util0 \
+            libxcb-shape0 \
+            libxcb-xinerama0
+
+      - name: Install Python dependencies
+        run: uv sync --frozen
+
       - name: Repository hygiene, privacy and secret scan
         run: uv run --frozen python scripts/check_public_repository.py
+
       - name: Compile Python sources
         run: uv run --frozen python -m compileall -q src tests scripts
+
       - name: Selected release-safety tests
+        env:
+          QT_QPA_PLATFORM: offscreen
         run: >-
           uv run --frozen pytest -q
           tests/packaging/test_release_hygiene.py
