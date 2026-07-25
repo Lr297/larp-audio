@@ -1,0 +1,15 @@
+Start with a clear idea, then shape the message around one useful promise. Keep each sentence direct, concrete, and easy to hear. The listener should understand the point without seeing a screen. Use familiar words, active verbs, and specific examples. Avoid filler, repeated claims, and vague transitions.
+
+First, describe the problem. Next, show the simple change. Then, explain the result. A strong voiceover moves forward without rushing the speaker. Short natural pauses can remain, while long empty pauses can be shortened. The exact script stays unchanged, because the writer controls every displayed word.
+
+Audio timing comes from local speech recognition, but recognition never becomes the subtitle text. Every script word keeps its original spelling, punctuation, case, and Unicode characters. Commas create sharp visual beats, periods close thoughts, and questions create clear turns. This makes review predictable for editors and creators.
+
+Consider a short product demonstration. The presenter opens the package, removes the item, and shows the main control. Each action can become a focused visual moment. The subtitle rhythm should support those moments without inventing new copy. One, two, or three words can form each rapid block.
+
+Lists need special attention. Isolate the first item, the second item, and the final item. This creates space for quick cuts and clear emphasis. A dramatic phrase can stand alone. Wow, the result feels immediate. But wait, the process is still deterministic. Listen closely. It's that simple.
+
+The application runs on the user's computer. It does not send the script to a cloud service, and it does not upload the audio. Technical reports should explain what happened without exposing private absolute paths. Exported files remain portable, reviewable, and tied to one local processing run.
+
+Performance matters during creative work. A subtitle stage should finish quickly enough that it does not feel stalled. The algorithm considers only local groups of up to three words. It stores compact costs and backpointers, then reconstructs the chosen sequence once. This keeps growth close to linear.
+
+Validation matters too. Every block must contain at least one word and no more than three. Every script word appears once, in order. Punctuation stays attached to the preceding text. Cleaned timestamps remain monotonic. Repeated runs with identical inputs produce identical subtitle files.
