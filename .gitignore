@@ -1,0 +1,54 @@
+.DS_Store
+.pytest_cache/
+.venv/
+__pycache__/
+*.py[cod]
+build/
+dist/
+output/
+outputs/
+*.egg-info/
+
+# Production speech engines and inference caches never belong in source control.
+models/
+model.bin
+**/model.bin
+.cache/
+**/.cache/
+**/huggingface/
+**/ctranslate2/
+speech-engines/
+**/speech-engines/
+
+# Resumable downloads and local application data.
+*.partial
+*.partial.*
+*.lock
+!uv.lock
+application-data/
+local-app-data/
+
+# Generated processing, packaging and diagnostic data.
+work/
+tmp/
+temp/
+*.dmg
+*.app/
+*.zip
+*.log
+*.crash
+*.dmp
+crash-reports/
+
+# Additional release exclusions
+*.wav
+*.srt
+*.exe
+.env
+credentials/
+signing/
+user_audio/
+
+# Release binaries
+release/**/*.dmg
+release/**/*.exe
