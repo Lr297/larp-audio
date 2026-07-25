@@ -1,0 +1,32 @@
+{
+  "schema_version": "bundled-media-manifest.v1",
+  "source": "https://ffmpeg.org/releases/ffmpeg-8.1.2.tar.xz",
+  "source_sha256": "464beb5e7bf0c311e68b45ae2f04e9cc2af88851abb4082231742a74d97b524c",
+  "version": "8.1.2",
+  "license": "LGPL-2.1-or-later",
+  "build_provenance": {
+    "script": "scripts/build_ffmpeg_macos.py",
+    "virtual_prefix": "/opt/larp-audio/ffmpeg",
+    "source_layout": "temporary clean extraction with source-relative compilation",
+    "path_remapping": "not required; distributed binary strings are release-scanned for build paths"
+  },
+  "configure_flags": [
+    "--disable-gpl",
+    "--disable-nonfree",
+    "--disable-doc",
+    "--disable-ffplay",
+    "--disable-network",
+    "--disable-autodetect",
+    "--disable-shared",
+    "--enable-static"
+  ],
+  "platforms": {
+    "macos-arm64": {
+      "ffmpeg_sha256": "e8a15d8620dd4a4bc7a1706493968308ee801f175ee15e89ffa38907d65f483b",
+      "ffprobe_sha256": "194d846c002fe3fb3fea092a43583ba1c6bc5e5df07e50d9998d6c27846025e5"
+    },
+    "windows-x86_64": {
+      "status": "must be supplied and verified by the Windows build job"
+    }
+  }
+}

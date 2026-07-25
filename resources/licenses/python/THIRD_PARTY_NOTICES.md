@@ -1,0 +1,46 @@
+# Python runtime third-party notices
+
+- PySide6 6.8.3: LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+- shiboken6 6.8.3: LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only
+- faster-whisper 1.2.1: MIT
+- ctranslate2 4.8.1: MIT
+- tokenizers 0.23.1: See packaged license file
+- av 18.0.0: BSD-3-Clause
+- certifi 2026.6.17: MPL-2.0
+- huggingface_hub 1.24.0: Apache-2.0
+- numpy 2.5.1: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0
+- onnxruntime 1.27.0: MIT License
+- PyYAML 6.0.3: MIT
+- requests 2.34.2: Apache-2.0
+- urllib3 2.7.0: MIT
+- charset-normalizer 3.4.9: MIT
+- idna 3.18: BSD-3-Clause
+- tqdm 4.69.0: MPL-2.0 AND MIT
+- flatbuffers 25.12.19: Apache 2.0
+- protobuf 7.35.1: 3-Clause BSD License
+- filelock 3.31.0: MIT
+- fsspec 2026.6.0: BSD-3-Clause
+- packaging 26.2: Apache-2.0 OR BSD-2-Clause
+- spacy 3.8.14: MIT
+- en_core_web_sm 3.8.0: MIT
+- thinc 8.3.13: MIT
+- blis 1.3.3: BSD
+- catalogue 2.0.10: MIT
+- confection 1.3.3: MIT
+- cymem 2.0.13: MIT
+- murmurhash 1.0.15: MIT
+- preshed 3.0.13: MIT
+- srsly 2.5.3: MIT
+- spacy-legacy 3.0.12: MIT
+- spacy-loggers 1.0.5: MIT
+- wasabi 1.1.3: MIT
+- weasel 1.0.0: MIT
+- smart_open 8.0.1: See packaged license file
+- pydantic 2.13.4: MIT
+- pydantic_core 2.46.4: MIT
+- Jinja2 3.1.6: See packaged license file
+- MarkupSafe 3.0.3: BSD-3-Clause
+- typer 0.27.0: MIT
+- rich 15.0.0: MIT
+- cloudpathlib 0.24.0: See packaged license file
+- wrapt 2.2.2: BSD-2-Clause
