@@ -1,0 +1,24 @@
+name: public-source-preflight
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  hygiene:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --frozen
+      - name: Repository hygiene, privacy and secret scan
+        run: uv run --frozen python scripts/check_public_repository.py
+      - name: Compile Python sources
+        run: uv run --frozen python -m compileall -q src tests scripts
+      - name: Selected release-safety tests
+        run: >-
+          uv run --frozen pytest -q
+          tests/packaging/test_release_hygiene.py
+          tests/speech_engine/test_manager.py
+          tests/gui/test_speech_setup_lifecycle.py
