@@ -1,0 +1,7 @@
+{
+  "mode": "offline",
+  "engine_id": "faster-whisper-small-multilingual",
+  "revision": "2ec96c5472da50d38d40c0cfe0602af2e94b4c8a",
+  "include_from": "LARP_AUDIO_OFFLINE_ENGINE_DIRECTORY",
+  "note": "The build fails unless the preverified pinned engine is supplied explicitly. No model is stored in Git or source archives."
+}

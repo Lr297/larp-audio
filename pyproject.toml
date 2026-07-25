@@ -1,0 +1,35 @@
+[project]
+name = "larp-audio-mvp"
+version = "0.1.0"
+description = "Local desktop audio cleanup and subtitle preparation foundation"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "certifi>=2026.6.17",
+    "faster-whisper>=1.2.1,<2",
+    "PySide6>=6.8.3,<6.9",
+    "spacy>=3.8.14,<3.9",
+    "en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl",
+]
+
+[project.scripts]
+larp-audio-gui = "larp_audio_mvp.app.desktop:main"
+larp-audio-process = "larp_audio_mvp.app.process_audio:main"
+
+[build-system]
+requires = ["uv_build>=0.11.29,<0.12"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pyinstaller>=6.21,<7",
+    "pytest>=9.0.3,<10",
+]
+
+[tool.pytest.ini_options]
+addopts = "--strict-config --strict-markers -ra"
+testpaths = ["tests"]
+markers = [
+    "integration: requires optional local media tools and/or model assets",
+    "stt_integration: requires a complete local Faster-Whisper model",
+]
